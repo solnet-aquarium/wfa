@@ -7204,7 +7204,7 @@ button.close {
 .fa-percent:before {
   content: ""; }
 
-.ms-dialogHidden {
-  display: none; }
+#sideNavBox, #contentBox {
+  width: auto !important; }
 
 /*# sourceMappingURL=app.css.map */
