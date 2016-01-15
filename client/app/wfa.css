@@ -7210,4 +7210,10 @@ footer.footer {
   margin-top: 70px;
   border-top: 1px solid #E5E5E5; }
 
+  .bob {
+    width: 500px;
+    height: 500px;
+    background: green;
+  }
+
 /*# sourceMappingURL=app.css.map */
