@@ -1,0 +1,49 @@
+﻿.sn-topnavi-largeicons > .sn-menuitem
+{
+    background-image: url('Images/div-vertical.png');
+    background-position: right center;
+    background-repeat:no-repeat;
+}
+.sn-topnavi-largeicons > .sn-menuitem:last-of-type
+{
+    background:none;
+}
+
+.sn-topnavi-largeicons-bottom > .sn-menuitem
+{
+    background-image: url('Images/line-horizontal.png');
+    background-position: bottom center;
+    background-repeat:repeat-x;
+    height:10px;
+}
+.sn-topnavi-largeicons-bottom > .sn-menuitem:first-of-type
+{
+    background-image: url('Images/line-horizontal-start.png');
+    background-position: bottom left;
+    background-repeat:no-repeat;
+}
+.sn-topnavi-largeicons-bottom > .sn-menuitem:last-of-type
+{
+    background-image: url('Images/line-horizontal-end.png');
+    background-position: bottom right;
+    background-repeat:no-repeat;
+}
+
+.sn-topnavi-largeicons a
+{
+    text-align:center;
+}
+button.navbar-toggle
+{
+    border-color:black;
+}
+button.navbar-toggle > span.icon-bar
+{
+    border-color:black;
+    background-color:black;
+}
+
+div.navbar ul
+{
+    margin-left:0;
+}

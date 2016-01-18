@@ -3,12 +3,12 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/vendor/assets/font
 $fa-font-path: "../bower_components/font-awesome/fonts";
 @import '../bower_components/font-awesome/scss/font-awesome';
 
-
+@import '../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables';
 // Component styles are injected through grunt
 // injector
 @import 'main/_variables.scss';
 @import 'main/footer.scss';
-@import 'main/main.scss';
+@import 'main/layout.scss';
 @import 'main/search.scss';
 @import '../components/footer/footer.scss';
 // endinjector
