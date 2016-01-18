@@ -4,12 +4,22 @@ $fa-font-path: "../bower_components/font-awesome/fonts";
 @import '../bower_components/font-awesome/scss/font-awesome';
 
 @import '../bower_components/bootstrap-sass-official/vendor/assets/stylesheets/bootstrap/_variables';
+
+@import 'main/_base-sol-intranet.scss';
+@import 'main/_textstyles.scss';
+@import 'main/_topMenu.scss';
+@import 'main/_topnavi.scss';
+
 // Component styles are injected through grunt
 // injector
+@import 'main/__variables.scss';
 @import 'main/_base-sol-intranet.scss';
-@import 'main/_variables.scss';
+@import 'main/_textstyles.scss';
+@import 'main/_topMenu.scss';
+@import 'main/_topnavi.scss';
 @import 'main/footer.scss';
 @import 'main/layout.scss';
+@import 'main/nav.scss';
 @import 'main/search.scss';
 @import '../components/footer/footer.scss';
 // endinjector
