@@ -1,0 +1,38 @@
+﻿.sn-topnavi  i.Home:before
+{
+	content:"\f015";
+}
+
+.sn-topnavi  i.People:before
+{
+	content:"\f0c0";
+}
+.sn-topnavi i.Capabilities:before
+{
+	content:"\f0ad";
+}
+.sn-topnavi i.Projects:before
+{
+	content:"\f126";
+}
+.sn-topnavi i.Social:before
+{
+	content:"\f0e6";
+}
+.sn-topnavi i.Company:before
+{
+	content:"\f0f7";
+}
+.sn-topnavi i.Clients:before
+{
+	content:"\f219";
+}
+.sn-topnavi i.Knowledge:before
+{
+	content:"\f0eb";
+}
+.sn-topnavi i.Enterprise:before
+{
+	content:"\f002";
+}
+ 

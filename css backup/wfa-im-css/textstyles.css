@@ -1,0 +1,48 @@
+﻿.static  i.People:before
+{
+	content:"\f0c0";
+	padding-left:10px;
+}
+.static i.Capabilities:before
+{
+	content:"\f0ad";
+		padding-left:10px;
+}
+.static  i.Projects:before
+{
+	content:"\f126";
+		padding-left:10px;
+}
+.static  i.Social:before
+{
+	content:"\f0e6";
+		padding-left:10px;
+}
+.static  i.Company:before
+{
+	content: "\f0f9";
+	text-align:center;
+}
+.static i.Clients:before
+{
+	content:"\f1b3";
+		padding-left:10px;
+}
+.static i.Knowledge-Hub:before
+{
+	content:"\f0eb";
+		padding-left:10px;
+}
+.static i.Enterprise-Search:before
+{
+	content:"\f002";
+		padding-left:10px;
+}
+
+.static i.team:before
+{
+	content: "\f12e";
+		padding-left:10px;
+}
+
+
