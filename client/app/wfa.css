@@ -8708,6 +8708,12 @@ ul.dynamic .ms-core-listMenu-item:hover {
 .sn-topnavi i.Enterprise:before {
   content: "\f002"; }
 
+.footer-container {
+  background: #0e589e; }
+
+.sn-footer {
+  margin-top: 20px; }
+
 #titleAreaRow {
   margin: 25px 0 0 0; }
   #titleAreaRow #siteIcon {
@@ -8728,9 +8734,14 @@ ul.dynamic .ms-core-listMenu-item:hover {
 
 .homecarousel {
   display: none; }
-  @media (min-width: 1200px) {
+  @media (min-width: 992px) {
     .homecarousel {
       display: block; } }
+  .homecarousel .carousel-caption {
+    left: 0;
+    right: 0; }
+  .homecarousel img {
+    width: 100%; }
 
 #sideNavBox, #contentBox {
   width: auto !important; }

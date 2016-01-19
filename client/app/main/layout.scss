@@ -28,10 +28,16 @@
 
 .homecarousel {
   display: none;
-  @media (min-width: $screen-lg) {
+  @media (min-width: $screen-md) {
     display: block;
   }
-
+  .carousel-caption {
+    left: 0;
+    right: 0;
+  }
+  img {
+    width: 100%;
+  }
 }
 
 
