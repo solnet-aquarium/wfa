@@ -1,10 +1,24 @@
 #titlerow {
-
+  .ms-breadcrumb-box {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  #myTopNav {
+    width: 100%;
+    float: none;
+  }
+  #myTopNavul {
+    width: 100%;
+  }
   li.static {
+    height: auto;
     width: 19%;
+    padding: 0;
     a {
       padding: 0;
+      display: block;
       text-align: center;
+      float: none;
     } 
     i {
       font-size: 30px;

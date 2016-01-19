@@ -1,9 +1,14 @@
 
-#titleAreaRow #siteIcon img {
-  width: 100px;
-  height: auto;
-  @media (min-width: $screen-sm) {
-    width: 100%;
+#titleAreaRow {
+  #siteIcon {
+    margin: 0;
+    img {
+      width: 100px;
+      height: auto;
+      @media (min-width: $screen-sm) {
+        width: 100%;
+      }
+    }
   }
 }
 

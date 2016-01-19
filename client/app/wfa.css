@@ -8644,22 +8644,51 @@ ul.dynamic .ms-core-listMenu-item:hover {
 .sn-topnavi i.Enterprise:before {
   content: "\f002"; }
 
-#titleAreaRow #siteIcon img {
-  width: 100px;
-  height: auto; }
-  @media (min-width: 768px) {
-    #titleAreaRow #siteIcon img {
-      width: 100%; } }
+#titleAreaRow #siteIcon {
+  margin: 0; }
+  #titleAreaRow #siteIcon img {
+    width: 100px;
+    height: auto; }
+    @media (min-width: 768px) {
+      #titleAreaRow #siteIcon img {
+        width: 100%; } }
 
 #sideNavBox, #contentBox {
   width: auto !important; }
 
+#titlerow .ms-breadcrumb-box {
+  padding-top: 0;
+  padding-bottom: 0; }
+#titlerow #myTopNav {
+  width: 100%;
+  float: none; }
+#titlerow #myTopNavul {
+  width: 100%; }
 #titlerow li.static {
-  width: 19%; }
+  height: auto;
+  width: 19%;
+  padding: 0; }
   #titlerow li.static a {
     padding: 0;
-    text-align: center; }
+    display: block;
+    text-align: center;
+    float: none; }
   #titlerow li.static i {
     font-size: 30px; }
+
+/* Search input */
+#titleAreaRow .ms-belltown-searcharea {
+  width: auto; }
+
+#titleAreaRow .ms-srch-sb > input {
+  width: 70%;
+  height: 40px !important; }
+
+#titleAreaRow .ms-srch-sb-border, #titleAreaRow .ms-srch-sb-borderFocused {
+  border: none;
+  margin-left: 15px; }
+
+.ms-belltown-authenticated .ms-belltown-searcharea {
+  padding-top: 0; }
 
 /*# sourceMappingURL=app.css.map */

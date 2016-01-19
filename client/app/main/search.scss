@@ -1,1 +1,26 @@
 
+/* Search input */
+
+#titleAreaRow .ms-belltown-searcharea {
+  width: auto;
+}
+
+#titleAreaRow .ms-srch-sb > input {
+    width: 70%;
+    height: 40px !important;
+    @media (min-width: $screen-md) {
+
+    }
+}
+
+#titleAreaRow  .ms-srch-sb-border, #titleAreaRow  .ms-srch-sb-borderFocused {
+  border: none;
+  margin-left: 15px;
+}
+
+
+
+// reset
+.ms-belltown-authenticated .ms-belltown-searcharea {
+    padding-top: 0;
+}
