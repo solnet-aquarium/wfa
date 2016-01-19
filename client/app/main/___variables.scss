@@ -10,6 +10,38 @@ $grey-30          : #c7c6c6;
 $grey-20          : #efefef; 
 
 
+// Headings
+
+$font-size-h1     : 36;            
+$font-size-h2     : 28;            
+$font-size-h3     : 22;            
+$font-size-h4     : 20;            
+$font-size-h5     : 18;            
+$font-size-h6     : 14; 
+
+$font-colour-h1     : $brand-primary;            
+$font-colour-h2     : $grey-80;            
+$font-colour-h3     : $brand-secondary;           
+$font-colour-h4     : $grey-50;            
+$font-colour-h5     : $grey-80;            
+$font-colour-h6     : $font-colour-h5; 
+
+$font-weight-h1     : 300;            
+$font-weight-h2     : 500;            
+$font-weight-h3     : 500;            
+$font-weight-h4     : 500;            
+$font-weight-h5     : 500;            
+$font-weight-h6     : 700;            
+
+
+$body-copy-size         : 14;
+$body-copy-line-height  : 1.9rem;
+$link-underline-offset  : 0.1rem; // position the link underline. This is influenced by the line height
+$body-copy              : $grey-80;
+
+
+
+
 $margin-xs : 10px;
 $margin-sm : 15px;
 $margin-md : 25px;

@@ -47,6 +47,25 @@
 }
 
 
+#pageTitle{
+display:none;
+}
+
+.ms-siteicon-img {
+  display: block;
+  max-width: 260px;
+  max-height: 90px;
+}
+
+.ms-siteicon-a {
+  display: inline-block;
+  max-width: 260px;
+  max-height: 90px;
+}
+
+
+
+
 // Home page specific styles
 
 form[action="/Pages/Home.aspx"] {
