@@ -15,37 +15,35 @@
             </div>
             <!-- Second Row - Three Blocks -->
             <div class="row">
-                <div class="col-xs-12 col-md-4 col-lg-3 col-lg-offset-1">                   
+                <div class="col-xs-12 col-md-4">                   
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow2Column1" Title="loc:LeftColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>                   
                 </div>
-                <div class="col-xs-12 col-md-4 col-lg-3">                   
+                <div class="col-xs-12 col-md-4">                   
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow2Column2" Title="loc:MiddleColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>
                     
                 </div>
-                <div class="col-xs-12 col-md-4 col-lg-3 col-right">                                      
+                <div class="col-xs-12 col-md-4">                                      
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow2Column3" Title="loc:RightColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>                    
                 </div>
-            </div>
-            <!-- Second Row - Three Blocks -->
-            <div class="row">
-                <div class="col-xs-12 col-md-4 col-lg-3 col-lg-offset-1">                   
+            
+                <div class="col-xs-12 col-md-4">                   
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow3Column1" Title="loc:LeftBottomColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>                   
                 </div>
-                <div class="col-xs-12 col-md-4 col-lg-3">                   
+                <div class="col-xs-12 col-md-4">                   
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow3Column2" Title="loc:MiddleBottomColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>
                     
                 </div>
-                <div class="col-xs-12 col-md-4 col-lg-3 col-right">                                      
+                <div class="col-xs-12 col-md-4">                                      
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow3Column3" Title="loc:RightBottomColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>                    
@@ -55,7 +53,7 @@
             
             <!-- First Row-->
 			<div class="row">
-                <div class="col-md-12">
+                <div class="col-xs-12">
                     <!-- Main Banner Image - place in a paragraph to enforce the modular scale spacing -->
                     
 				    
@@ -67,8 +65,7 @@
                 </div>
             </div>
             <!-- Second Row-->
-            <div class="row">
-             <div class="col-md-12 col-lg-9 col-lg-offset-1"> 
+            <div class="row"> 
                 <div class="col-md-8">
                      
 				    
@@ -87,44 +84,33 @@
 				    
                 </div>
                 
-                </div>
+             
 
                 
             </div>
             <!-- Third Row-->
             <div class="row">
-            
-             <div class="col-md-12 col-lg-9 col-lg-offset-1"> 
-                <div class="col-md-12">
+                <div class="col-xs-12">
                     <div class="panel">
-                         
-						    
-						    <div>
-						        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column1" Title="Third Column Top" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
-						    </div>
-				    
+    					<div>
+    				        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column1" Title="Third Column Top" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
+    				    </div>
+    			    
                         <div class="row">
                             <div class="col-md-9">
-                                 
-							     
-							     <div>
-							        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column2Sub1" Title="Third Column Left" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
-							    </div>
-							    
+    						    <div>
+    						        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column2Sub1" Title="Third Column Left" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
+    						    </div>
                             </div>
                             <div class="col-md-3">
-                                 
-							     
-							     <div>
-							        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column2Sub2" Title="Third Column Right" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
-							    </div>
-							    
+    						    <div>
+    						        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column2Sub2" Title="Third Column Right" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
+    						    </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                </div>
-            </div>
+        </div>
 
       
 
