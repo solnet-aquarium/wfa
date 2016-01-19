@@ -1,8 +1,14 @@
 
 /* Search input */
 
+#searchInputBox {
+  float: none;
+}
+
 #titleAreaRow .ms-belltown-searcharea {
   width: auto;
+  margin-top: $margin-md;
+
 }
 
 #titleAreaRow .ms-srch-sb > input {
@@ -15,7 +21,6 @@
 
 #titleAreaRow  .ms-srch-sb-border, #titleAreaRow  .ms-srch-sb-borderFocused {
   border: none;
-  margin-left: 15px;
 }
 
 

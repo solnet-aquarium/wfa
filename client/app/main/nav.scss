@@ -2,26 +2,65 @@
   .ms-breadcrumb-box {
     padding-top: 0;
     padding-bottom: 0;
+    height: auto;
+    //clearfix for content
+    &:after, &:before {
+      content: "";
+      display: table;
+    }
+    @media (min-width: $screen-sm) {
+      //clerafix not required
+      &:after, &:before {
+        content: "";
+        display: none;
+      }
+    }
   }
   #myTopNav {
     width: 100%;
     float: none;
   }
+  // nav ul
   #myTopNavul {
     width: 100%;
   }
+  // nav li
   li.static {
     height: auto;
-    width: 19%;
-    padding: 0;
+    width: 50%;
+    padding: 15px 0;
+    border: 0px transparent;
+    @media (min-width: $screen-sm) {
+      width: 19%;
+      padding: 0;
+      border-left:  1px solid $grey-30;
+      &:last-child {
+        border-right:  1px solid $grey-30;
+      }
+    }
     a {
       padding: 0;
       display: block;
       text-align: center;
       float: none;
     } 
+    //icon size
     i {
-      font-size: 30px;
+      font-size: 50px;
+      @media (min-width: $screen-sm) {
+        font-size: 34px;
+      }
+    }
+    .menu-item-text {
+      @media (min-width: $screen-sm) {
+        font-size: 11px;
+      }
+      @media (min-width: $screen-md) {
+        font-size: 12px;
+      }
+      @media (min-width: $screen-lg) {
+        font-size: 13px;
+      }
     }
   }
 

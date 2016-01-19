@@ -1,9 +1,19 @@
 
 #titleAreaRow {
+  margin: $margin-md 0 0 0;
+
   #siteIcon {
     margin: 0;
+    text-align: left;
+    @media (min-width: $screen-sm) {
+      text-align: center;
+    }
+    a {
+      max-width: auto;
+      max-height: auto;
+    }
     img {
-      width: 100px;
+      width: 200px;
       height: auto;
       @media (min-width: $screen-sm) {
         width: 100%;
