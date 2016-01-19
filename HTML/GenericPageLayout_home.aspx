@@ -15,12 +15,12 @@
             </div>
             <!-- Second Row - Three Blocks -->
             <div class="row">
-                <div class="col-xs-12 col-md-4">                   
+                <div class="col-xs-12 col-sm-6 col-md-4">                   
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow2Column1" Title="loc:LeftColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>                   
                 </div>
-                <div class="col-xs-12 col-md-4">                   
+                <div class="col-xs-12 col-sm-6 col-md-4">                   
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow2Column2" Title="loc:MiddleColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>
@@ -32,7 +32,7 @@
                 <div class="clearfix visible-xs visible-sm"></div>
 
 
-                <div class="col-xs-12 col-md-4">                                      
+                <div class="col-xs-12 col-sm-6 col-md-4">                                      
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow2Column3" Title="loc:RightColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>                    
@@ -42,7 +42,7 @@
                 <div class="clearfix visible-md visible-lg"></div>
                 
 
-                <div class="col-xs-12 col-md-4">                   
+                <div class="col-xs-12 col-sm-6 col-md-4">                   
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow3Column1" Title="loc:LeftBottomColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>                   
@@ -53,13 +53,13 @@
                 <div class="clearfix visible-xs visible-sm"></div>
 
 
-                <div class="col-xs-12 col-md-4">                   
+                <div class="col-xs-12 col-sm-6 col-md-4">                   
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow3Column2" Title="loc:MiddleBottomColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>
                     
                 </div>
-                <div class="col-xs-12 col-md-4">                                      
+                <div class="col-xs-12 col-sm-6 col-md-4">                                      
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow3Column3" Title="loc:RightBottomColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>                    
