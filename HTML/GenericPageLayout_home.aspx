@@ -9,24 +9,24 @@
 
 <!-- First Row -->
 			<div class="row homecarousel">
-                <div class="col-md-12 col-lg-9 col-lg-offset-1">        
+                <div class="col-xs-12">        
                     <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow1Column1" Title="loc:Header" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>                  
                 </div>
             </div>
             <!-- Second Row - Three Blocks -->
             <div class="row">
-                <div class="col-md-4 col-lg-3 col-lg-offset-1">                   
+                <div class="col-xs-12 col-md-4 col-lg-3 col-lg-offset-1">                   
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow2Column1" Title="loc:LeftColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>                   
                 </div>
-                <div class="col-md-4 col-lg-3">                   
+                <div class="col-xs-12 col-md-4 col-lg-3">                   
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow2Column2" Title="loc:MiddleColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>
                     
                 </div>
-                <div class="col-md-4 col-lg-3 col-right">                                      
+                <div class="col-xs-12 col-md-4 col-lg-3 col-right">                                      
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow2Column3" Title="loc:RightColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>                    
@@ -34,18 +34,18 @@
             </div>
             <!-- Second Row - Three Blocks -->
             <div class="row">
-                <div class="col-md-4 col-lg-3 col-lg-offset-1">                   
+                <div class="col-xs-12 col-md-4 col-lg-3 col-lg-offset-1">                   
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow3Column1" Title="loc:LeftBottomColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>                   
                 </div>
-                <div class="col-md-4 col-lg-3">                   
+                <div class="col-xs-12 col-md-4 col-lg-3">                   
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow3Column2" Title="loc:MiddleBottomColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>
                     
                 </div>
-                <div class="col-md-4 col-lg-3 col-right">                                      
+                <div class="col-xs-12 col-md-4 col-lg-3 col-right">                                      
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow3Column3" Title="loc:RightBottomColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>                    

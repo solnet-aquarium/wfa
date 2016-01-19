@@ -5,17 +5,24 @@
   float: none;
 }
 
+.ms-srch-sb.ms-srch-sb-border {
+  //make search container 100%
+  width: 100%;
+}
+
 #titleAreaRow .ms-belltown-searcharea {
   width: auto;
   margin-top: $margin-md;
-
 }
 
 #titleAreaRow .ms-srch-sb > input {
-    width: 70%;
+    width: 78%;
     height: 40px !important;
+    @media (min-width: $screen-sm-min) {
+      width: 300px;
+    }
     @media (min-width: $screen-md) {
-
+      width: 70%;
     }
 }
 

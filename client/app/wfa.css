@@ -8726,6 +8726,12 @@ ul.dynamic .ms-core-listMenu-item:hover {
         #titleAreaRow #siteIcon img {
           width: 100%; } }
 
+.homecarousel {
+  display: none; }
+  @media (min-width: 1200px) {
+    .homecarousel {
+      display: block; } }
+
 #sideNavBox, #contentBox {
   width: auto !important; }
 
@@ -8781,13 +8787,22 @@ ul.dynamic .ms-core-listMenu-item:hover {
 #searchInputBox {
   float: none; }
 
+.ms-srch-sb.ms-srch-sb-border {
+  width: 100%; }
+
 #titleAreaRow .ms-belltown-searcharea {
   width: auto;
   margin-top: 25px; }
 
 #titleAreaRow .ms-srch-sb > input {
-  width: 70%;
+  width: 78%;
   height: 40px !important; }
+  @media (min-width: 768px) {
+    #titleAreaRow .ms-srch-sb > input {
+      width: 300px; } }
+  @media (min-width: 992px) {
+    #titleAreaRow .ms-srch-sb > input {
+      width: 70%; } }
 
 #titleAreaRow .ms-srch-sb-border, #titleAreaRow .ms-srch-sb-borderFocused {
   border: none; }
