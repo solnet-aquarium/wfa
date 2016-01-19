@@ -26,17 +26,33 @@
                     </div>
                     
                 </div>
+                
+
+                <!-- Create a break in the panels at a certain screen size for 2 column layout -->
+                <div class="clearfix visible-xs visible-sm"></div>
+
+
                 <div class="col-xs-12 col-md-4">                                      
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow2Column3" Title="loc:RightColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>                    
                 </div>
-            
+
+                <!-- Create a break in the panels at a certain screen size for 3 column layout -->
+                <div class="clearfix visible-md visible-lg"></div>
+                
+
                 <div class="col-xs-12 col-md-4">                   
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow3Column1" Title="loc:LeftBottomColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                     </div>                   
                 </div>
+
+
+                <!-- Create a break in the panels at a certain screen size for 2 column layout -->
+                <div class="clearfix visible-xs visible-sm"></div>
+
+
                 <div class="col-xs-12 col-md-4">                   
                     <div>
                         <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow3Column2" Title="loc:MiddleBottomColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
