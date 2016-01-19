@@ -1,3 +1,6 @@
+#titleAreaBox {
+  margin: 0;
+}
 
 #titleAreaRow {
   margin: $margin-md 0 0 0;
@@ -17,6 +20,9 @@
       height: auto;
       @media (min-width: $screen-sm) {
         width: 100%;
+      }
+      @media (min-width: $screen-lg) {
+        width: 85%;
       }
     }
   }
@@ -41,10 +47,19 @@
 }
 
 
+// Home page specific styles
+
+form[action="/Pages/Home.aspx"] {
+  #pageTitle, #pageContentTitle {
+    display: none;
+  }
+}
+
+
 // fixes
 
-#sideNavBox, #contentBox {
-  width: auto !important;
-}
+// #sideNavBox, #contentBox {
+//   width: auto !important;
+// }
 
 

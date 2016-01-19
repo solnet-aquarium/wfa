@@ -1,0 +1,213 @@
+
+
+//mobile margins
+@include set-margin('top');
+@include set-margin('bottom');
+@include set-margin('left');
+@include set-margin('right');
+@include set-multi-margins();
+
+// flex containers
+
+.flex-container {
+  @include flexbox();
+  @include flex-wrap();
+}
+
+.flex-container-mob {
+  @include flexbox();
+  @include flex-wrap();
+  @media (min-width: $screen-md) {
+    display: block;
+  }
+}
+
+
+// hide text from visual people
+// 
+.hidden-text-link {
+  text-indent: -99999px;
+}
+
+//remove margins
+
+.no-margin {
+  margin: 0;
+}
+
+.no-margin-top {
+  margin-top: 0;
+}
+.no-margin-right {
+  margin-right: 0;
+}
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+.no-margin-left {
+  margin-left: 0;
+}
+
+//pull margin
+.margin-pull-left {
+  margin-left: ($grid-gutter-width/2) * -1;
+  float: left;
+}
+
+.margin-pull-right {
+  margin-right: ($grid-gutter-width/2) * -1;
+  float: right; //ensure the element sits to the right, flush with the containers edge
+}
+
+//remove padding
+.no-pad-horizontal {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.no-pad-vertical {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.no-pad-left {
+  padding-left: 0;
+}
+
+.no-pad-right {
+  padding-right: 0;
+}
+
+.no-pad-horiz-xs {
+  @media (min-width: 0) and (max-width: $screen-xs-max) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.no-pad-horiz-sm {
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.no-pad-horiz-md {
+  @media (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.no-pad-horiz-lg {
+  @media (min-width: $screen-lg-min) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.no-pad-right-sm-lg {
+  @media (min-width: $screen-sm) {
+    padding-right: 0;
+  }
+}
+
+.no-pad-left-sm-lg {
+  @media (min-width: $screen-sm) {
+    padding-left: 0;
+  }
+}
+
+.no-pad-right-md-lg {
+  @media (min-width: $screen-md) {
+    padding-right: 0;
+  }
+}
+
+.no-pad-left-md-lg {
+  @media (min-width: $screen-md) {
+    padding-left: 0;
+  }
+}
+
+.no-margin-top-xs {
+  @media (min-width: 0) and (max-width: $screen-xs-max) {
+    margin-top: 0;
+  }
+}
+
+.no-margin-top-sm {
+  @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+    margin-top: 0;
+  }
+}
+
+// alignment of text
+// 
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+//position an element vertically center back to IE9
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+//Remove anchor underline
+.no-underline, .no-underline:focus {
+  text-decoration: none;
+  &:-webkit-any-link {
+    text-decoration: none;
+  }
+}
+
+//reverse out text for dark backgrounds
+.reverse {
+  color: #fff;
+}
+
+
+
+.visible-xs-sm {
+  display: block;
+  @media (min-width: $screen-sm-max) {
+    display: none;
+  }
+}
+
+.visible-md-lg {
+  display: none;
+  @media (min-width: $screen-md-min) {
+    display: block;
+  }
+}
+
+
+// Product Panel grid system, instead of flexbox: demo: http://codepen.io/solnet-digital/pen/NPErgr?editors=110
+
+// .product-panel {
+//   height: $product-panel-height;
+//   min-height: $product-panel-min-height;
+//   float: left;
+//   background-color: #ddd;
+//   margin-bottom: 20px;
+// }
+
+// .product-panel {
+//   @include calculateCols($number-of-columns-xs,$screen-start, $screen-xs-max);
+//   @include calculateCols($number-of-columns-sm,$screen-sm-min, $screen-sm-max);
+//   @include calculateCols($number-of-columns-md,$screen-md-min, $screen-md-max);
+//   @include calculateCols($number-of-columns-lg,$screen-lg-min);
+// }

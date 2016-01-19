@@ -131,7 +131,9 @@
       
 
  <style>
-#pageContentTitle{ display:none;}
+    /* Hide the homepage title */
+    #pageContentTitle{ display:none;}
+    #pageTitle{ display:none;}
 </style>
 
   <script src="https://wellingtonfreeambulance.sharepoint.com/_catalogs/masterpage/solnetintra/Scripts/jquery-1.9.1.js"></script>
