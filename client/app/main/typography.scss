@@ -1,0 +1,10 @@
+h3 {
+  color: $brand-primary;
+  a {
+    color: $brand-primary;
+    &:hover {
+      color: $brand-secondary;
+      text-decoration: none;
+    }
+  }
+}
