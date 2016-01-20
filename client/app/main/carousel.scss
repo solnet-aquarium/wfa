@@ -25,7 +25,7 @@
     border: 2px solid white;
     text-indent: $text-offset;
     &:hover {
-      background: black;
+      background: rgba(0,0,0,0.95);
     }
     top: 50%;
     &.left:after, &.right:after {

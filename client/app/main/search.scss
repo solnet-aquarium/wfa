@@ -15,7 +15,9 @@
   margin-top: $margin-sm;
 }
 
-#titleAreaRow .ms-srch-sb > input {
+#titleAreaRow .ms-srch-sb, #titleAreaRow .ms-srch-sb-borderFocused {
+  width: 100%;
+  > input  {
     width: 78%;
     height: 40px !important;
     border: 1px solid $grey-40;
@@ -27,6 +29,7 @@
     @media (min-width: $screen-md) {
       width: 70%;
     }
+  }
 }
 
 #titleAreaRow  .ms-srch-sb-border, #titleAreaRow  .ms-srch-sb-borderFocused {
