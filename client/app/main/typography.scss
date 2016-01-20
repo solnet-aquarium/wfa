@@ -1,5 +1,19 @@
+@font-face {
+  font-family: 'lobster';
+  src: url('../fonts/lobster-hand.eot');
+  src: url('../fonts/lobster-hand.eot?#iefix') format('eot'),
+     url('../fonts/lobster-hand.woff') format('woff'),
+     url('../fonts/lobster-hand.ttf') format('truetype');
+     font-weight: 300;
+     font-style: normal;
+}
+
+
+
+
 h3 {
   color: $brand-primary-dk;
+  font-family: 'lobster', sans-serif;
   &.mainheading {
     border-bottom: 1px solid $brand-primary-dk;
     &:hover {
