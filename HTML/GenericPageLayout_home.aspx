@@ -7,12 +7,13 @@
 
 
 
-<!-- First Row -->
+            <!-- First Row -->
 			<div class="row homecarousel">
-                <div class="col-xs-12">        
-                    <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow1Column1" Title="loc:Header" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>                  
-                </div>
+                    <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow1Column1" Title="loc:Header" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
             </div>
+
+
+
             <!-- Second Row - Three Blocks -->
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4">                   

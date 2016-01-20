@@ -5,6 +5,7 @@
   display: none;
   @media (min-width: $screen-md) {
     display: block;
+    margin: $margin-md 0;
   }
   .carousel-caption {
     left: 0;
