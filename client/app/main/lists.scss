@@ -27,20 +27,18 @@
     margin-bottom: $margin-sm;
     img {
       width: 250px;
-      .wfa-sml-icons & {
-        width: 90px;
-      }
+      
       height: auto;
       @media (min-width: $screen-sm) {
         width: 200px;
-        .wfa-sml-icons & {
-          width: 90px;
-        }
       }
     }
     @media (min-width: $screen-sm) {
       margin-right: $margin-md;
       float: left;
     }
+  }
+  &.wfa-sml-icons .image-area-left img {
+    width: 90px;
   }
 }
