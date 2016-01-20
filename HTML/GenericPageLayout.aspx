@@ -94,7 +94,7 @@
             <!-- Third Row-->
             <div class="row">
             
-            <div class="col-md-12 col-lg-10 col-lg-offset-1 "> 
+            <div class="col-xs-12"> 
                 <div class="panel">
                      
 				    <div>
