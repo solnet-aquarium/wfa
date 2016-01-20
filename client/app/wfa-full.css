@@ -9419,10 +9419,28 @@ form[action="/Pages/Home.aspx"] #pageTitle, form[action="/Pages/Home.aspx"] #pag
         width: 200px; } }
   @media (min-width: 768px) {
     .wfa-article-area .image-area-left {
-      margin-right: 25px;
       float: left; } }
+.wfa-article-area .link-item-social {
+  margin-left: 0; }
+  @media (min-width: 768px) {
+    .wfa-article-area .link-item-social {
+      margin-left: 230px; } }
+@media (min-width: 480px) {
+  .wfa-article-area.wfa-sml-icons .image-area-left {
+    float: left; } }
 .wfa-article-area.wfa-sml-icons .image-area-left img {
-  width: 90px; }
+  width: 60px; }
+  @media (min-width: 992px) {
+    .wfa-article-area.wfa-sml-icons .image-area-left img {
+      width: 90px; } }
+.wfa-article-area.wfa-sml-icons .link-item {
+  margin-left: 0; }
+  @media (min-width: 480px) {
+    .wfa-article-area.wfa-sml-icons .link-item {
+      margin-left: 90px; } }
+  @media (min-width: 768px) {
+    .wfa-article-area.wfa-sml-icons .link-item {
+      margin-left: 100px; } }
 
 #titlerow .ms-breadcrumb-box {
   padding-top: 0;
