@@ -1,0 +1,12 @@
+//homepage, floating li elements need a clearfix
+.dfwp-list {
+  li {
+    &:before, &:after {
+      content: "";
+      display: table;
+    }
+    &:after {
+      clear: both;
+    }
+  }
+}
