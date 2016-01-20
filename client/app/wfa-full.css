@@ -9298,7 +9298,7 @@ ul.dynamic .ms-core-listMenu-item:hover {
     .homecarousel .carousel-control:visited {
       background: rgba(0, 0, 0, 0.8); }
     .homecarousel .carousel-control:hover {
-      background: black; }
+      background: rgba(0, 0, 0, 0.95); }
     .homecarousel .carousel-control.left:after, .homecarousel .carousel-control.right:after {
       display: block;
       font-family: "FontAwesome";
@@ -9455,18 +9455,20 @@ form[action="/Pages/Home.aspx"] #pageTitle, form[action="/Pages/Home.aspx"] #pag
   width: auto;
   margin-top: 15px; }
 
-#titleAreaRow .ms-srch-sb > input {
-  width: 78%;
-  height: 40px !important;
-  border: 1px solid #a7a6a6;
-  border-radius: 10px;
-  padding: 10px; }
-  @media (min-width: 768px) {
-    #titleAreaRow .ms-srch-sb > input {
-      width: 300px; } }
-  @media (min-width: 992px) {
-    #titleAreaRow .ms-srch-sb > input {
-      width: 70%; } }
+#titleAreaRow .ms-srch-sb, #titleAreaRow .ms-srch-sb-borderFocused {
+  width: 100%; }
+  #titleAreaRow .ms-srch-sb > input, #titleAreaRow .ms-srch-sb-borderFocused > input {
+    width: 78%;
+    height: 40px !important;
+    border: 1px solid #a7a6a6;
+    border-radius: 10px;
+    padding: 10px; }
+    @media (min-width: 768px) {
+      #titleAreaRow .ms-srch-sb > input, #titleAreaRow .ms-srch-sb-borderFocused > input {
+        width: 300px; } }
+    @media (min-width: 992px) {
+      #titleAreaRow .ms-srch-sb > input, #titleAreaRow .ms-srch-sb-borderFocused > input {
+        width: 70%; } }
 
 #titleAreaRow .ms-srch-sb-border, #titleAreaRow .ms-srch-sb-borderFocused {
   border: none; }
