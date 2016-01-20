@@ -94,37 +94,32 @@
             <!-- Third Row-->
             <div class="row">
             
-             <div class="col-md-12 col-lg-9 col-lg-offset-1"> 
-                <div class="col-md-12">
-                    <div class="panel">
-                         
-						    
+            <div class="col-md-12 col-lg-9 col-lg-offset-1 "> 
+                <div class="panel">
+                     
+				    <div>
+				        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column1" Title="Third Column Top" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
+				    </div>
+			    
+                    <div class="row">
+                        <div class="col-md-9 wfa-article-area">
+                             
 						    <div>
-						        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column1" Title="Third Column Top" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
+						        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column2Sub1" Title="Third Column Left" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
 						    </div>
-				    
-                        <div class="row">
-                            <div class="col-md-9">
-                                 
-							     
-							     <div>
-							        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column2Sub1" Title="Third Column Left" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
-							    </div>
-							    
-                            </div>
-                            <div class="col-md-3">
-                                 
-							     
-							     <div>
-							        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column2Sub2" Title="Third Column Right" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
-							    </div>
-							    
-                            </div>
+						    
+                        </div>
+                        <div class="col-md-3">
+                             
+						    <div>
+						        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column2Sub2" Title="Third Column Right" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
+						    </div>
+						    
                         </div>
                     </div>
                 </div>
-                </div>
             </div>
+        </div>
 
             
 
