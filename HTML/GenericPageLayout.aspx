@@ -9,7 +9,7 @@
 
 <!-- First Row -->
 			<div class="row">
-                <div class="col-xs-12 col-md-9 col-md-offset-1 col-lg-8 col-lg-offset-2 wfa-article-area wfa-sml-icons">        
+                <div class="col-xs-12 col-md-10 col-md-offset-1 col-lg-9 col-lg-offset-2 wfa-article-area wfa-sml-icons">        
                     <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrapRow1Column1" Title="loc:Header" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>                  
                 </div>
             </div>
@@ -94,7 +94,7 @@
             <!-- Third Row-->
             <div class="row">
             
-            <div class="col-md-12 col-lg-9 col-lg-offset-1 "> 
+            <div class="col-md-12 col-lg-10 col-lg-offset-1 "> 
                 <div class="panel">
                      
 				    <div>
