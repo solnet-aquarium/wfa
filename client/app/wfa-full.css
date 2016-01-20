@@ -9402,6 +9402,30 @@ form[action="/Pages/Home.aspx"] #pageTitle, form[action="/Pages/Home.aspx"] #pag
 .dfwp-list li:after {
   clear: both; }
 
+.wfa-article-area .dfwp-item {
+  margin: 15px 0 25px 0; }
+  @media (min-width: 768px) {
+    .wfa-article-area .dfwp-item {
+      margin: 15px 0 35px 0; } }
+.wfa-article-area .image-area-left {
+  margin-right: 0;
+  float: none;
+  margin-bottom: 15px; }
+  .wfa-article-area .image-area-left img {
+    width: 250px;
+    height: auto; }
+    .wfa-sml-icons .wfa-article-area .image-area-left img {
+      width: 90px; }
+    @media (min-width: 768px) {
+      .wfa-article-area .image-area-left img {
+        width: 200px; }
+        .wfa-sml-icons .wfa-article-area .image-area-left img {
+          width: 90px; } }
+  @media (min-width: 768px) {
+    .wfa-article-area .image-area-left {
+      margin-right: 25px;
+      float: left; } }
+
 #titlerow .ms-breadcrumb-box {
   padding-top: 0;
   padding-bottom: 0;
