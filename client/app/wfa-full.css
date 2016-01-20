@@ -9521,7 +9521,7 @@ form[action="/Pages/Home.aspx"] #pageTitle, form[action="/Pages/Home.aspx"] #pag
     #titlerow .ms-breadcrumb-box:after, #titlerow .ms-breadcrumb-box:before {
       content: "";
       display: none; } }
-#titlerow #myTopNav {
+#titlerow #myTopNav, #titlerow .ms-core-listMenu-root {
   width: 100%;
   float: none; }
 #titlerow #myTopNavul {
