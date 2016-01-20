@@ -9461,6 +9461,9 @@ form[action="/Pages/Home.aspx"] #pageTitle, form[action="/Pages/Home.aspx"] #pag
   min-width: 1px;
   display: block; }
 
+.ms-core-listMenu-horizontalBox {
+  width: 100%; }
+
 .dfwp-list li:before, .dfwp-list li:after {
   content: "";
   display: table; }

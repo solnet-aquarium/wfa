@@ -67,7 +67,10 @@ form[action="/Pages/Home.aspx"] {
   display: block;
 }
 
-
+//menu appears squashed, setting this div to 100% appears to fix it
+.ms-core-listMenu-horizontalBox {
+  width: 100%;
+}
 
 // #sideNavBox, #contentBox {
 //   width: auto !important;
