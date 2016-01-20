@@ -1,10 +1,14 @@
 .footer-container {
   background: $brand-primary;
-
+  padding-bottom: $margin-lg;
   h4 {
     color: white;
     padding-bottom: $margin-sm;
     border-bottom: 1px solid lighten($brand-primary, 10%); 
+    margin-top: $margin-lg;
+    @media (min-width: $screen-sm) {
+      margin-top: $margin-sm;
+    }
   }
 
   a {

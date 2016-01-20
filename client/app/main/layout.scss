@@ -62,6 +62,12 @@ form[action="/Pages/Home.aspx"] {
 
 // fixes
 
+.ms-pub-contentLayout {
+  min-width: 1px;
+  display: block;
+}
+
+
 // #sideNavBox, #contentBox {
 //   width: auto !important;
 // }
