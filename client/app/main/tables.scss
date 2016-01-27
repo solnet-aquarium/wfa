@@ -36,9 +36,13 @@ table[summary="Our People"] {
         padding-top: $margin-sm;
         padding-left: $margin-sm;
       }
-      //Phone numbers
-      &:nth-child(7), &:nth-child(8) {
-        width: 50%;
+      //Mobile number
+      &:nth-child(7){ 
+        width: 35%;
+      }
+      //Phone number
+      &:nth-child(8) {
+        width: 65%;
       }
       //email
       &:nth-child(9) {
