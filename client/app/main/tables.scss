@@ -42,6 +42,7 @@ table[summary="Our People"] {
       }
       //Phone number
       &:nth-child(8) {
+        padding-left: $margin-sm;
         width: 65%;
       }
       //email
