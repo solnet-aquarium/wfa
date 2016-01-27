@@ -62,6 +62,13 @@ form[action="/Pages/Home.aspx"] {
 
 // fixes
 
+
+#MSO_ContentTable, #MSO_ContentTable[style], .ms-webpart-chrome[style], .ms-WPBody[style] {
+  width: auto !important;
+}
+
+
+
 .ms-pub-contentLayout {
   min-width: 1px;
   display: block;

@@ -35,12 +35,7 @@ table.solnet-generic-table {
     border-spacing: 0 3px;
 }
 
-h1.page-title {
-    font-family: 'Segoe UI';
-    font-size: 32px;
-    margin: 0 0 20px 0;
-    vertical-align: text-top;
-}
+
 
 div.ms-webpartzone-cell {
     margin-bottom: 0;
@@ -49,32 +44,13 @@ div.ms-webpartzone-cell {
 div.no-results {
     color: #999999;
     line-height: 45px;
-    font-family: "Segoe UI";
     font-size: 16px;
     vertical-align: middle;
     margin: 0;
     padding: 0;
 }
 
-h3.mainheading, h4.mainheading {
-    width: 100%;
-    margin-bottom: 10px;
-    margin-top: 20px;
-    padding: 0;
-    padding-bottom: 5px;
-}
 
-    h3.mainheading a:visited {
-        color: inherit;
-    }
-
-    h3.mainheading i {
-        margin-right: 10px;
-    }
-
-h4.mainheading {
-    border: none;
-}
 
 div.col-side {
 }
@@ -83,29 +59,13 @@ div.item-capability {
     margin-bottom: 32px;
 }
 
-    div.item-capability h2 {
-        font-family: "Segoe UI";
-        font-weight: bold;
-        font-size: 26px;
-    }
 
-    div.item-capability p {
-        text-align: justify;
-        text-justify: inter-word;
-        color: #999999;
-    }
 
-    div.item-capability strong {
-        color: #abd3f9;
-        width: 120px;
-        display: inline-block;
-    }
-
-    div.item-capability img {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
+div.item-capability img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
 
 div.searchresult-people {
     float: left;
@@ -116,58 +76,57 @@ div.searchresult-people {
     margin-bottom: 24px;
 }
 
-    div.searchresult-people div.prof-panel {
-        height: 79px;
-        overflow: hidden;
-    }
+div.searchresult-people div.prof-panel {
+    height: 79px;
+    overflow: hidden;
+}
 
-    div.searchresult-people div.details-panel {
-        background-color: #F2F2F2;
-        border-top: 1px solid #CCCCCC;
-        height: 78px;
-        background-image: url('/_catalogs/masterpage/grad-details.png');
-        background-position: left top;
-        background-repeat: repeat-x;
-        overflow: hidden;
-        padding: 5px 0px 5px 8px;
-    }
+div.searchresult-people div.details-panel {
+    background-color: #F2F2F2;
+    border-top: 1px solid #CCCCCC;
+    height: 78px;
+    background-image: url('/_catalogs/masterpage/grad-details.png');
+    background-position: left top;
+    background-repeat: repeat-x;
+    overflow: hidden;
+    padding: 5px 0px 5px 8px;
+}
 
 
-    div.searchresult-people div.profilepicture-panel {
-        float: left;
-        cursor: pointer;
-    }
+div.searchresult-people div.profilepicture-panel {
+    float: left;
+    cursor: pointer;
+}
 
-    div.searchresult-people div.functions-panel {
-        padding-top: 43px;
-        margin-left: 4px;
-        float: left;
-    }
+div.searchresult-people div.functions-panel {
+    padding-top: 43px;
+    margin-left: 4px;
+    float: left;
+}
 
-    div.searchresult-people h4 {
-        font-family: 'Segoe UI';
-        font-weight: bold;
-        margin-top: 0;
-        margin-bottom: 6px;
-    }
+div.searchresult-people h4 {
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 6px;
+}
 
-    div.searchresult-people span.details {
-        font-family: 'Segoe UI';
-        color: #9d9d9d;
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-    }
+div.searchresult-people span.details {
+    font-family: 'Segoe UI';
+    color: #9d9d9d;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 
-    div.searchresult-people button span {
-        color: #0e589e;
-    }
+div.searchresult-people button span {
+    color: #0e589e;
+}
 
 /* [Display Template] Search Result Client */
 div.searchresult-client {
     padding: 0 0 0 10px;
     border-left: 10px solid #abd3f9;
-    font-family: 'Segoe UI';
     overflow: hidden;
     margin-bottom: 10px;
 }
@@ -183,48 +142,24 @@ div.searchresult-client:hover {
 }
 
 
-div.searchresult-client h4 {
-    color: #0e589e;
-    font-family: "Segoe UI";
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 1em;
-    margin: 0;
-    float: left;
-    width: 49%;
-    max-height: 3em;
-    overflow: hidden;
-    display: block;
-}
+
 
 div.searchresult-client a:hover {
     text-decoration: underline;
 }
 
-div.searchresult-client p {
-    font-family: 'Segoe UI';
-    color: #999999;
-    text-align: justify;
-    text-justify: inter-word;
-    line-height: 1.1em;
-    font-size: 16px;
-    height: 5.5em;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    margin-top: 10px;
-}
+
 
 div.searchresult-client table, table.details {
     vertical-align: baseline;
 }
 
-    div.searchresult-client label, table.details label {
-        color: #abd3f9;
-        font-family: 'Segoe UI';
-        font-size: 14px;
-        margin-right: 10px;
-        vertical-align: baseline;
-    }
+div.searchresult-client label, table.details label {
+    color: #abd3f9;
+    font-size: 14px;
+    margin-right: 10px;
+    vertical-align: baseline;
+}
 
 div.searchresult-client i {
     font-size: 14px;
@@ -245,14 +180,14 @@ div.searchresult-client div.header-container {
     overflow-y: hidden;
 }
 
-    div.searchresult-client div.header-container img {
-        float: right;
-        max-height: 55px;
-        display: block;
-        max-width: 49%;
-        display: block;
-        overflow: hidden;
-    }
+div.searchresult-client div.header-container img {
+    float: right;
+    max-height: 55px;
+    display: block;
+    max-width: 49%;
+    display: block;
+    overflow: hidden;
+}
 /*Carousel*/
 .carousel img {
     margin-left: auto;
@@ -282,44 +217,41 @@ div.newslist-item {
     height: 120px;
 }
 
-    div.newslist-item p {
-        font-family: 'Segoe UI';
-    }
 
-    div.newslist-item .descr-container {
-        padding-left: 5px;
-        float: left;
-        width: 49%;
-    }
+
+div.newslist-item .descr-container {
+    padding-left: 5px;
+    float: left;
+    width: 49%;
+}
 
 
 /*[DISPLAY TEMPLATE] Announcement*/
 div.searchresult-announcement {
     margin-bottom: 18px;
-    font-family: 'Segoe UI';
 }
 
-    div.searchresult-announcement a {
-        color: #0E589E;
-        line-height: 1em;
-        font-weight: bold;
-        height: 2em;
-        display: inline-block;
-        vertical-align: text-top;
-    }
+div.searchresult-announcement a {
+    color: #0E589E;
+    line-height: 1em;
+    font-weight: bold;
+    height: 2em;
+    display: inline-block;
+    vertical-align: text-top;
+}
 
-    div.searchresult-announcement small {
-        color: #B2B2B2;
-    }
+div.searchresult-announcement small {
+    color: #B2B2B2;
+}
 
-    div.searchresult-announcement i {
-        color: #B2B2D2;
-        margin-left: 3px;
-    }
+div.searchresult-announcement i {
+    color: #B2B2D2;
+    margin-left: 3px;
+}
 
-    div.searchresult-announcement small.time {
-        color: #B2B2D2;
-    }
+div.searchresult-announcement small.time {
+    color: #B2B2D2;
+}
 
 /* [Display Template] Event */
 ul.dfwp-list {
@@ -328,273 +260,261 @@ ul.dfwp-list {
     padding: 0px;
 }
 
-    div.sn-item-event {
+div.sn-item-event {
 
-        padding: 0px;
-        margin: 0px 0px 10px;
+    padding: 0px;
+    margin: 0px 0px 10px;
+}
+
+    div.sn-item-event > time {
+        display: inline-block;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        background-color: rgb(14, 88, 158);
+        padding: 5px;
+        text-align: center;
+        text-transform: uppercase;
     }
 
-        div.sn-item-event > time {
-            display: inline-block;
-            width: 100%;
-            color: rgb(255, 255, 255);
-            background-color: rgb(14, 88, 158);
-            padding: 5px;
-            text-align: center;
-            text-transform: uppercase;
-        }
+    ul.dfwp-list > li:nth-child(even) > .sn-event time {
+        background-color: rgb(171, 211, 249);
+    }
 
-        ul.dfwp-list > li:nth-child(even) > .sn-event time {
-            background-color: rgb(171, 211, 249);
-        }
+    div.sn-item-event > time > span {
+        display: none;
+    }
 
-        div.sn-item-event > time > span {
-            display: none;
-        }
+    div.sn-item-event > time > .day {
+        display: block;
+        font-size: 26pt;
+        font-weight: 100;
+        line-height: 1;
+        text-align: center;
+    }
 
-        div.sn-item-event > time > .day {
-            display: block;
-            font-size: 26pt;
-            font-weight: 100;
-            line-height: 1;
-            text-align: center;
-        }
+    div.sn-item-event > time > .month {
+        display: block;
+        font-size: 18pt;
+        font-weight: 900;
+        line-height: 1;
+    }
 
-        div.sn-item-event > time > .month {
-            display: block;
-            font-size: 18pt;
-            font-weight: 900;
-            line-height: 1;
-        }
+    div.sn-item-event img {
+        width: 100%;
+    }
 
-        div.sn-item-event img {
-            width: 100%;
-        }
+    div.sn-item-event .info {
+        padding-top: 5px;
+        text-align: center;
+    }
 
-        div.sn-item-event .info {
-            padding-top: 5px;
-            text-align: center;
-        }
-
-            div.sn-item-event .info > .title {
-                font-size: 13pt;
-                font-weight: 700;
-                margin: 0px;
-            }
-
-            udiv.sn-item-event .info > .desc {
-                font-size: 12pt;
-                font-weight: 300;
-                margin: 0px;
-            }
-
-            div.sn-item-event .info > ul,
-            div.sn-item-event .social > ul {
-                display: table;
-                list-style: none;
-                margin: 10px 0px 0px;
-                padding: 0px;
-                width: 100%;
-                text-align: center;
-            }
-
-        div.sn-item-event .social > ul {
+        div.sn-item-event .info > .title {
+            font-size: 13pt;
+            font-weight: 700;
             margin: 0px;
         }
 
-            div.sn-item-event .info > ul > li,
-            div.sn-item-event .social > ul > li {
-                display: table-cell;
-                cursor: pointer;
+        udiv.sn-item-event .info > .desc {
+            font-size: 12pt;
+            font-weight: 300;
+            margin: 0px;
+        }
+
+        div.sn-item-event .info > ul,
+        div.sn-item-event .social > ul {
+            display: table;
+            list-style: none;
+            margin: 10px 0px 0px;
+            padding: 0px;
+            width: 100%;
+            text-align: center;
+        }
+
+    div.sn-item-event .social > ul {
+        margin: 0px;
+    }
+
+        div.sn-item-event .info > ul > li,
+        div.sn-item-event .social > ul > li {
+            display: table-cell;
+            cursor: pointer;
+            color: rgb(30, 30, 30);
+            font-size: 11pt;
+            font-weight: 300;
+            padding: 3px 0px;
+        }
+
+            div.sn-item-event .info > ul > li > a {
+                display: block;
+                width: 100%;
                 color: rgb(30, 30, 30);
-                font-size: 11pt;
-                font-weight: 300;
+                text-decoration: none;
+            }
+
+        div.sn-item-event .social > ul > li {
+            padding: 0px;
+        }
+
+            div.sn-item-event  .social > ul > li > a {
                 padding: 3px 0px;
             }
 
-                div.sn-item-event .info > ul > li > a {
-                    display: block;
-                    width: 100%;
-                    color: rgb(30, 30, 30);
-                    text-decoration: none;
-                }
 
-            div.sn-item-event .social > ul > li {
-                padding: 0px;
-            }
+div.sn-item-event {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 80px;
+    padding: 0px;
+}
 
-                div.sn-item-event  .social > ul > li > a {
-                    padding: 3px 0px;
-                }
+    div.sn-item-event time,
+    div.sn-item-event img {
+        display: inline-block;
+        width: 80px;
+        float: left;
+    }
 
-
-    div.sn-item-event {
+    div.sn-item-event .info {
+        background-color: rgb(245, 245, 245);
+        overflow: hidden;
         position: relative;
-        display: block;
-        width: 100%;
+        height: 80px;
+        text-align: left;
+        padding-right: 40px;
+    }
+
+    div.sn-item-event time,
+    div.sn-item-event img {
+        width: 80px;
         height: 80px;
         padding: 0px;
+        margin: 0px;
     }
 
-        div.sn-item-event time,
-        div.sn-item-event img {
-            display: inline-block;
-            width: 80px;
-            float: left;
-        }
-
-        div.sn-item-event .info {
-            background-color: rgb(245, 245, 245);
-            overflow: hidden;
-            position: relative;
-            height: 80px;
-            text-align: left;
-            padding-right: 40px;
-        }
-
-        div.sn-item-event time,
-        div.sn-item-event img {
-            width: 80px;
-            height: 80px;
-            padding: 0px;
-            margin: 0px;
-        }
-
-
-            div.sn-item-event .info > .title,
-            div.sn-item-event .info > .desc {
-                padding: 0px 10px;
-            }
-
-            div.sn-item-event .info > ul {
-                position: absolute;
-                left: 0px;
-                bottom: 0px;
-            }
-
-        div.sn-item-event .social {
-            position: absolute;
-            top: 0px;
-            right: 0px;
-            display: block;
-            width: 40px;
-        }
-
-            div.sn-item-event .social > ul {
-                border-left: 1px solid rgb(230, 230, 230);
-            }
-
-                div.sn-item-event .social > ul > li {
-                    display: block;
-                    padding: 0px;
-                }
-
-                    div.sn-item-event .social > ul > li > a {
-                        display: block;
-                        width: 40px;
-                        padding: 10px 0px 9px;
-                    }
-
-
-
-    ul.dfwp-list > li {
-        box-shadow: none;
-        background: none;
-    }
-
-        div.sn-item-event h2, li a:visited {
-            font-family: 'Segoe UI';
-            font-weight: bold;
-            font-size: 16px;
-            line-height: 2em;
-            max-height: 2em;
-            overflow: hidden;
-            margin: 0 0 5px 0;
-            color: #0e589e;
-            vertical-align: top;
-            text-wrap: normal;
-        }
-
-    div.sn-item-event {
-        height: 120px;
-        margin: 0;
-    }
-
-        div.sn-item-event div.descr-event {
-            padding-left: 10px;
-            float: left;
-            display: inline-block;
-            width: 69%;
-        }
-
-        div.sn-item-event i {
-            margin: 0 5px 0 2px;
-            line-height: 0.9px;
-            font-size: 14px;
-            color: #7a7a7a;
-        }
-
-        div.sn-item-event p {
-            font-family: 'Segoe UI';
-            font-size: 14px;
-            line-height: 0.9em;
-            color: #7a7a7a;
-            margin: 0 0 0 0px;
-        }
-
-            div.sn-item-event p.time {
-                margin-bottom: 5px;
-            }
-
-            div.sn-item-event p.location {
-                max-height: 1.8em;
-            }
-
-        div.sn-item-event time,
-        div.sn-item-event img {
-            padding-top: 4px;
-            font-family: "Segoe UI Black";
-        }
-
-            div.sn-item-event time > .day {
-                font-size: 34pt;
-          font-family: "Segoe UI Black";
-            }
-      
-       div.sn-item-event time  span .day {
-                font-size: 34pt;
-        font-family: "Segoe UI Black";
-            }
-
-        div.sn-item-event time > .month {
-            font-size: 14pt;
-        font-family: "Segoe UI Black";
-        }
-    
-     div.sn-item-event time  span .month {
-            font-size: 14pt;
-      font-family: "Segoe UI Black";
-        }
 
         div.sn-item-event .info > .title,
         div.sn-item-event .info > .desc {
-            padding-left: 10px;
-            padding-right: 10px;
-            line-height: 1.1em;
-            font-family: "Segoe UI";
-            font-weight: normal;
+            padding: 0px 10px;
         }
 
-        ul.dfwp-list > li:nth-child(even) > div.sn-event time {
-            background-color: rgb(58, 141, 219);
+        div.sn-item-event .info > ul {
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
         }
 
-        div.sn-item-event .info {
-            position: relative;
-            height: 80px;
-            text-align: left;
-            padding-right: 0px;
+    div.sn-item-event .social {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        display: block;
+        width: 40px;
+    }
+
+        div.sn-item-event .social > ul {
+            border-left: 1px solid rgb(230, 230, 230);
         }
+
+            div.sn-item-event .social > ul > li {
+                display: block;
+                padding: 0px;
+            }
+
+                div.sn-item-event .social > ul > li > a {
+                    display: block;
+                    width: 40px;
+                    padding: 10px 0px 9px;
+                }
+
+
+
+ul.dfwp-list > li {
+    box-shadow: none;
+    background: none;
+}
+
+
+
+div.sn-item-event {
+    height: 120px;
+    margin: 0;
+}
+
+    div.sn-item-event div.descr-event {
+        padding-left: 10px;
+        float: left;
+        display: inline-block;
+        width: 69%;
+    }
+
+    div.sn-item-event i {
+        margin: 0 5px 0 2px;
+        line-height: 0.9px;
+        font-size: 14px;
+        color: #7a7a7a;
+    }
+
+    div.sn-item-event p {
+        font-size: 14px;
+        line-height: 0.9em;
+        color: #7a7a7a;
+        margin: 0 0 0 0px;
+    }
+
+        div.sn-item-event p.time {
+            margin-bottom: 5px;
+        }
+
+        div.sn-item-event p.location {
+            max-height: 1.8em;
+        }
+
+    div.sn-item-event time,
+    div.sn-item-event img {
+        padding-top: 4px;
+        font-family: "Segoe UI Black";
+    }
+
+        div.sn-item-event time > .day {
+            font-size: 34pt;
+      font-family: "Segoe UI Black";
+        }
+  
+   div.sn-item-event time  span .day {
+            font-size: 34pt;
+    font-family: "Segoe UI Black";
+        }
+
+    div.sn-item-event time > .month {
+        font-size: 14pt;
+    font-family: "Segoe UI Black";
+    }
+
+ div.sn-item-event time  span .month {
+        font-size: 14pt;
+  font-family: "Segoe UI Black";
+    }
+
+    div.sn-item-event .info > .title,
+    div.sn-item-event .info > .desc {
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 1.1em;
+        font-family: "Segoe UI";
+        font-weight: normal;
+    }
+
+    ul.dfwp-list > li:nth-child(even) > div.sn-event time {
+        background-color: rgb(58, 141, 219);
+    }
+
+    div.sn-item-event .info {
+        position: relative;
+        height: 80px;
+        text-align: left;
+        padding-right: 0px;
+    }
 
 
 

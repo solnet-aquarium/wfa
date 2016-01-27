@@ -8,22 +8,66 @@
      font-style: normal;
 }
 
+h1, h1.ms-belltown-pageName, h1.page-title {
+    font-family: 'lobster', sans-serif;
+    color: $brand-primary;
+    font-size: $font-size-h1;
+    margin: 0 0 20px 0;
+    vertical-align: text-top;
+    a {
+      color: $brand-primary;
+      &:visited {
+        color: $brand-primary;
+      }
+    }
+}
 
+div.item-capability h2 {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+h2, h2 a, h2 a:visited {
+    font-family: 'lobster';
+    font-weight: $font-weight-h2;
+    font-size: $font-size-h2;
+    overflow: hidden;
+    margin: 0 0 5px 0;
+    color: $brand-primary-dk;
+    vertical-align: top;
+    text-wrap: normal;
+}
+
+h3.mainheading, h4.mainheading {
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 0;
+    padding-bottom: 5px;
+    a:visited {
+      color: inherit;
+  }
+}
+
+h3.mainheading i {
+    margin-right: 10px;
+}
 
 
 h3 {
-  color: $brand-primary-dk;
+  color: $brand-primary;
+  font-size: $font-size-h3;
   font-family: 'lobster', sans-serif;
   &.mainheading {
-    border-bottom: 1px solid $brand-primary-dk;
+    border-bottom: 1px solid $brand-primary;
     &:hover {
       border-bottom: 1px solid $brand-secondary;
     }
   }
   a {
-    color: $brand-primary-dk;
+    color: $brand-primary;
     &:visited {
-      color: $brand-primary-dk;
+      color: $brand-primary;
     }
     &:hover {
       color: $brand-secondary;
@@ -32,3 +76,50 @@ h3 {
   }
 }
 
+h4, h4.mainheading, div.searchresult-client h4, .nav-header[style] {
+  color: $brand-primary !important;
+  font-size: $font-size-h4 !important;
+  font-weight: $font-weight-h4 !important;
+  color: $font-colour-h4 !important;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  border: none;
+}
+
+.footer-container h4 {
+  color: white !important;
+  font-size: $font-size-h5 !important;
+}
+
+div.searchresult-client h4 {
+    margin: 0;
+    float: left;
+    width: 49%;
+    max-height: 3em;
+    overflow: hidden;
+    display: block;
+}
+
+div.searchresult-client p {
+    color: #999999;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.1em;
+    font-size: 16px;
+    height: 5.5em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+
+div.item-capability p {
+    text-align: justify;
+    text-justify: inter-word;
+    color: #999999;
+}
+
+div.item-capability strong {
+    color: #abd3f9;
+    width: 120px;
+    display: inline-block;
+}
