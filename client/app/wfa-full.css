@@ -9188,6 +9188,10 @@ ul.dynamic .ms-core-listMenu-item:hover {
 .sn-footer {
   margin-top: 20px; }
 
+@media (max-width: 1199px) {
+  img, img[style] {
+    width: 100% !important;
+    height: auto !important; } }
 #titleAreaBox {
   margin: 0; }
 
