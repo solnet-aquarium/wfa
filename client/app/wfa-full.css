@@ -9413,7 +9413,7 @@ table[summary="Our People"] {
         padding-top: 15px; }
       table[summary="Our People"] td:nth-child(5), table[summary="Our People"] td:nth-child(7), table[summary="Our People"] td:nth-child(8), table[summary="Our People"] td:nth-child(9) {
         height: 50px;
-        border-bottom: none; }
+        border-bottom: 10px solid #fff; }
       table[summary="Our People"] td:nth-child(5) {
         width: 20%; }
       table[summary="Our People"] td:nth-child(7), table[summary="Our People"] td:nth-child(8) {

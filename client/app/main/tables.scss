@@ -74,8 +74,9 @@ table[summary="Our People"] {
       //Phone numbers & email
       &:nth-child(5), &:nth-child(7), &:nth-child(8), &:nth-child(9) {
         height: 50px;
-        border-bottom: none;
+        border-bottom: 10px solid #fff;
       }
+      //bottom row
       &:nth-child(5) {
         width: 20%;
       }
