@@ -1,0 +1,100 @@
+//Our People table
+
+// reset
+.ms-listviewtable .ms-itmhover {
+  height: auto;
+}
+
+//style
+table[summary="Our People"] {
+  // cell listing: 1) tick   2) Photo   3) name   4) Title   5) Team   6) Exec Team   7) Mob   8) Ph   9) Email
+  width: 100%;
+  tbody tr {
+    &:nth-child(odd) {
+      background-color: $grey-20;
+    }
+  }
+  @media (max-width: $screen-xs-max) {
+    
+    //hide table head... unusable in this view
+    th {
+      display: none;
+    }
+
+    td {
+      display: inline-block;
+      //Photo cell
+      &:nth-child(2) {
+        padding-top: $margin-sm;
+        width: 35%;
+        min-height: 50px;
+        background-color: $grey-30;
+      }
+      //name cell
+      &:nth-child(3) {
+        width: 60%;
+        padding-top: $margin-sm;
+        padding-left: $margin-sm;
+      }
+      //Phone numbers
+      &:nth-child(7), &:nth-child(8) {
+        width: 50%;
+      }
+      //email
+      &:nth-child(9) {
+        width: 100%;
+        border-bottom: 10px solid #fff;
+      }
+      &:nth-child(1), &:nth-child(4), &:nth-child(5), &:nth-child(6) {
+        display: none;
+      }
+    }
+  }
+  @media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+    
+    //hide table head... unusable in this view
+    th {
+      display: none;
+    }
+
+    td {
+      display: inline-block;
+      //Photo cell
+      &:nth-child(2) {
+        padding-top: $margin-sm;
+        width: 20%;
+        min-height: 50px;
+        background-color: $grey-30;
+      }
+      //name cell
+      &:nth-child(3), &:nth-child(4) {
+        width: 40%;
+        padding-top: $margin-sm;
+      }
+      //Phone numbers & email
+      &:nth-child(5), &:nth-child(7), &:nth-child(8), &:nth-child(9) {
+        height: 50px;
+        border-bottom: none;
+      }
+      &:nth-child(5) {
+        width: 20%;
+      }
+      &:nth-child(7), &:nth-child(8) {
+        width: 20%;
+      }
+      &:nth-child(9) {
+        width: 40%;
+      }
+      
+      &:nth-child(1), &:nth-child(6) {
+        display: none;
+      }
+    }
+  }
+  @media (min-width: $screen-md) {
+    td {
+      padding: $margin-sm 0;
+      display: table-cell;
+    }
+  }
+}

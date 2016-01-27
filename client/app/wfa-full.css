@@ -9370,6 +9370,63 @@ form[action="/Pages/Home.aspx"] #pageTitle, form[action="/Pages/Home.aspx"] #pag
 .ms-belltown-authenticated .ms-belltown-searcharea {
   padding-top: 0; }
 
+.ms-listviewtable .ms-itmhover {
+  height: auto; }
+
+table[summary="Our People"] {
+  width: 100%; }
+  table[summary="Our People"] tbody tr:nth-child(odd) {
+    background-color: #efefef; }
+  @media (max-width: 767px) {
+    table[summary="Our People"] th {
+      display: none; }
+    table[summary="Our People"] td {
+      display: inline-block; }
+      table[summary="Our People"] td:nth-child(2) {
+        padding-top: 15px;
+        width: 35%;
+        min-height: 50px;
+        background-color: #c7c6c6; }
+      table[summary="Our People"] td:nth-child(3) {
+        width: 60%;
+        padding-top: 15px;
+        padding-left: 15px; }
+      table[summary="Our People"] td:nth-child(7), table[summary="Our People"] td:nth-child(8) {
+        width: 50%; }
+      table[summary="Our People"] td:nth-child(9) {
+        width: 100%;
+        border-bottom: 10px solid #fff; }
+      table[summary="Our People"] td:nth-child(1), table[summary="Our People"] td:nth-child(4), table[summary="Our People"] td:nth-child(5), table[summary="Our People"] td:nth-child(6) {
+        display: none; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    table[summary="Our People"] th {
+      display: none; }
+    table[summary="Our People"] td {
+      display: inline-block; }
+      table[summary="Our People"] td:nth-child(2) {
+        padding-top: 15px;
+        width: 20%;
+        min-height: 50px;
+        background-color: #c7c6c6; }
+      table[summary="Our People"] td:nth-child(3), table[summary="Our People"] td:nth-child(4) {
+        width: 40%;
+        padding-top: 15px; }
+      table[summary="Our People"] td:nth-child(5), table[summary="Our People"] td:nth-child(7), table[summary="Our People"] td:nth-child(8), table[summary="Our People"] td:nth-child(9) {
+        height: 50px;
+        border-bottom: none; }
+      table[summary="Our People"] td:nth-child(5) {
+        width: 20%; }
+      table[summary="Our People"] td:nth-child(7), table[summary="Our People"] td:nth-child(8) {
+        width: 20%; }
+      table[summary="Our People"] td:nth-child(9) {
+        width: 40%; }
+      table[summary="Our People"] td:nth-child(1), table[summary="Our People"] td:nth-child(6) {
+        display: none; } }
+  @media (min-width: 992px) {
+    table[summary="Our People"] td {
+      padding: 15px 0;
+      display: table-cell; } }
+
 @font-face {
   font-family: 'lobster';
   src: url("../fonts/lobster-hand.eot");
