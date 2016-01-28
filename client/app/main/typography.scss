@@ -40,8 +40,12 @@ h2, h2 a, h2 a:visited {
 
 h3.mainheading, h4.mainheading {
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 20px;
+    margin-bottom: 30px;
+    &[style] {
+      margin-bottom: 30px !important;
+    }
+    //create space between components
+    margin-top: 50px;
     padding: 0;
     padding-bottom: 5px;
     a:visited {
@@ -76,8 +80,7 @@ h3 {
   }
 }
 
-h4, h4.mainheading, div.searchresult-client h4, .nav-header[style] {
-  color: $brand-primary !important;
+h4, h4.mainheading, div.searchresult-client h4 {
   font-size: $font-size-h4 !important;
   font-weight: $font-weight-h4 !important;
   color: $font-colour-h4 !important;
@@ -89,6 +92,23 @@ h4, h4.mainheading, div.searchresult-client h4, .nav-header[style] {
   color: white !important;
   font-size: $font-size-h5 !important;
 }
+
+
+// render headings on homepage columns smaller and same colour
+// target homepage only
+form[action="/Pages/Home.aspx"] {
+  // headings in lists
+    li .searchresult-announcement a, li h2 a, .nav-header[style] {
+    font-size: 18px !important;
+    font-weight: bold !important;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    color: $brand-primary !important;
+    padding-top: 0;
+  }
+}
+
+
+
 
 div.searchresult-client h4 {
     margin: 0;

@@ -105,14 +105,14 @@ div.searchresult-people div.functions-panel {
 }
 
 div.searchresult-people h4 {
-    font-family: 'Segoe UI';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-seri;
     font-weight: bold;
     margin-top: 0;
     margin-bottom: 6px;
 }
 
 div.searchresult-people span.details {
-    font-family: 'Segoe UI';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-seri;
     color: #9d9d9d;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -473,27 +473,32 @@ div.sn-item-event {
     div.sn-item-event time,
     div.sn-item-event img {
         padding-top: 4px;
-        font-family: "Segoe UI Black";
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-seri;
+        font-weight: bold;
     }
 
-        div.sn-item-event time > .day {
-            font-size: 34pt;
-      font-family: "Segoe UI Black";
-        }
+    div.sn-item-event time > .day {
+      font-size: 34pt;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-seri;
+      font-weight: bold;
+    }
   
    div.sn-item-event time  span .day {
             font-size: 34pt;
-    font-family: "Segoe UI Black";
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-seri;
+    font-weight: bold;
         }
 
     div.sn-item-event time > .month {
         font-size: 14pt;
-    font-family: "Segoe UI Black";
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-seri;
+    font-weight: bold;
     }
 
  div.sn-item-event time  span .month {
         font-size: 14pt;
-  font-family: "Segoe UI Black";
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-seri;
+  font-weight: bold;
     }
 
     div.sn-item-event .info > .title,
@@ -501,7 +506,7 @@ div.sn-item-event {
         padding-left: 10px;
         padding-right: 10px;
         line-height: 1.1em;
-        font-family: "Segoe UI";
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-seri;
         font-weight: normal;
     }
 
@@ -531,7 +536,7 @@ p.text-muted {
 button.see-more {
     background-color: #0e589e;
     color: white;
-    font-family: "Segoe UI Light";
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-seriLight;
 }
 
 tr.searchresult-projbid {
@@ -539,7 +544,7 @@ tr.searchresult-projbid {
 }
 
     tr.searchresult-projbid a {
-        font-family: 'Segoe UI';
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-seri;
         font-size: 16px;
         vertical-align: middle;
     }
@@ -581,7 +586,7 @@ div.brickwall div.brick {
     float: left;
     width: 75px;
     height: 75px;
-    font-family: 'Segoe UI';
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-seri;
     font-weight: bold;
     border: 1px solid #E5E5E5;
     color: #E5E5E5;
