@@ -1,3 +1,8 @@
+#s4-workspace[style] {
+  width: 100% !important;
+}
+
+
 @media (max-width: $screen-sm-max) {
   // on all screens md and below, force images to be 100% width of their container. This is to try and avoid images breaking the responsive layout
   img, img[style] {

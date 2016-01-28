@@ -9201,6 +9201,9 @@ ul.dynamic .ms-core-listMenu-item:hover {
 #ctl00_ctl55_site_share_button[style] {
   display: none !important; }
 
+#s4-workspace[style] {
+  width: 100% !important; }
+
 @media (max-width: 991px) {
   img, img[style] {
     width: 100% !important;
