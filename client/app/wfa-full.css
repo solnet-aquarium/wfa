@@ -9126,7 +9126,10 @@ ul.dynamic .ms-core-listMenu-item:hover {
   @media (min-width: 992px) {
     .homecarousel {
       display: block;
-      margin: 25px 0; } }
+      margin: 25px 0;
+      width: 100%;
+      height: 400px;
+      overflow: hidden; } }
   .homecarousel .carousel-caption {
     left: 0;
     right: 0; }
