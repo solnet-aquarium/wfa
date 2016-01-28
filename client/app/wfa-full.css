@@ -9204,10 +9204,6 @@ ul.dynamic .ms-core-listMenu-item:hover {
 #s4-workspace[style] {
   width: 100% !important; }
 
-@media (max-width: 991px) {
-  img, img[style] {
-    width: 100% !important;
-    height: auto !important; } }
 #titleAreaBox {
   margin: 0; }
 
@@ -9250,6 +9246,24 @@ form[action="/Pages/Home.aspx"] #pageTitle, form[action="/Pages/Home.aspx"] #pag
 
 #MSO_ContentTable, #MSO_ContentTable[style], .ms-webpart-chrome[style], .ms-WPBody[style] {
   width: auto !important; }
+
+#CategoryRootElement .ms-comm-sCat-imageContainer {
+  width: 100%;
+  float: none;
+  height: auto; }
+  #CategoryRootElement .ms-comm-sCat-imageContainer img {
+    width: 200px !important;
+    height: auto;
+    position: static;
+    display: block;
+    margin: 20px auto; }
+  @media (min-width: 480px) {
+    #CategoryRootElement .ms-comm-sCat-imageContainer {
+      float: left;
+      width: 150px; } }
+  @media (min-width: 480px) {
+    #CategoryRootElement .ms-comm-sCat-imageContainer {
+      width: 200px; } }
 
 .ms-pub-contentLayout {
   min-width: 1px;

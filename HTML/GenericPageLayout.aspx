@@ -68,7 +68,6 @@
             </div>
             <!-- Second Row-->
             <div class="row">
-             <div class="col-md-12 col-lg-9 col-lg-offset-1"> 
                 <div class="col-md-8">
                      
 				    
@@ -85,9 +84,7 @@
 				        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row2Column2" Title="loc:RightColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
 				    </div>
 				    
-                </div>
-                
-                </div>
+            </div>
 
                 
             </div>

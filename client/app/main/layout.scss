@@ -3,13 +3,6 @@
 }
 
 
-@media (max-width: $screen-sm-max) {
-  // on all screens md and below, force images to be 100% width of their container. This is to try and avoid images breaking the responsive layout
-  img, img[style] {
-    width: 100% !important;
-    height: auto !important;
-  }
-}
 
 #titleAreaBox {
   margin: 0;
@@ -80,7 +73,28 @@ form[action="/Pages/Home.aspx"] {
   width: auto !important;
 }
 
+// fix category images getting cropped off
 
+#CategoryRootElement .ms-comm-sCat-imageContainer {
+  width: 100%;
+  float: none;
+  height: auto;
+  img {
+    width: 200px !important;
+    height: auto;
+    //reset positioning
+    position: static;
+    display: block;
+    margin: 20px auto;
+  }
+  @media (min-width: $screen-xs) {
+    float: left;
+    width: 150px;
+  }
+  @media (min-width: $screen-xs) {
+    width: 200px;
+  }
+}
 
 .ms-pub-contentLayout {
   min-width: 1px;
