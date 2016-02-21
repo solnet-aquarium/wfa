@@ -11,6 +11,7 @@ $grey-30          : #c7c6c6;
 $grey-20          : #efefef; 
 
 
+
 // Headings
 
 $font-size-h1     : 48px;            
@@ -35,6 +36,8 @@ $font-weight-h5     : 500;
 $font-weight-h6     : 700;            
 
 
+
+$base-font        : "Helvetica Neue", Helvetica, Arial, sans-serif;
 $body-copy-size         : 14;
 $body-copy-line-height  : 1.9rem;
 $link-underline-offset  : 0.1rem; // position the link underline. This is influenced by the line height

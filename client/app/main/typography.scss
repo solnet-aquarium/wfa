@@ -33,7 +33,7 @@ h2, h2 a, h2 a:visited {
     font-size: $font-size-h2;
     overflow: hidden;
     margin: 0 0 5px 0;
-    color: $brand-primary-dk;
+    color: $brand-primary;
     vertical-align: top;
     text-wrap: normal;
 }
@@ -84,7 +84,7 @@ h4, h4.mainheading, div.searchresult-client h4 {
   font-size: $font-size-h4 !important;
   font-weight: $font-weight-h4 !important;
   color: $font-colour-h4 !important;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+  font-family: $base-font !important;
   border: none;
 }
 
@@ -98,7 +98,7 @@ h4, h4.mainheading, div.searchresult-client h4 {
 // target homepage only
 form[action="/Pages/Home.aspx"] {
   // headings in lists
-    li .searchresult-announcement a, li h2 a, .nav-header[style] {
+  li h2 a, .nav-header[style] {
     font-size: 18px !important;
     font-weight: bold !important;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
@@ -107,6 +107,31 @@ form[action="/Pages/Home.aspx"] {
   }
 }
 
+
+/*[DISPLAY TEMPLATE] Announcement*/
+
+
+div.searchresult-announcement {
+    margin-bottom: $margin-md;
+}
+
+div.searchresult-announcement a {
+    @extend .standard-text;
+
+}
+
+div.searchresult-announcement small {
+    color: #B2B2B2;
+}
+
+div.searchresult-announcement i {
+    color: #B2B2D2;
+    margin-left: 3px;
+}
+
+div.searchresult-announcement small.time {
+    color: #B2B2D2;
+}
 
 
 
@@ -143,3 +168,24 @@ div.item-capability strong {
     width: 120px;
     display: inline-block;
 }
+
+
+// fixes for forcing headings to appear as other types
+
+.sub-heading {
+  font-size: $font-size-h4;
+}
+
+.standard-text {
+  font-size: $body-copy-size;
+}
+
+
+.descr-event h2, .descr-event a { 
+  @extend .sub-heading;
+  font-family: $base-font !important;
+}
+
+
+
+
