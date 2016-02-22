@@ -9599,7 +9599,7 @@ div.item-capability strong {
 .nav-header.item[style] {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
 
-form {
-  display: block; }
+.s4-workspace[style] {
+  display: block !important; }
 
 /*# sourceMappingURL=app.css.map */

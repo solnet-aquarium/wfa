@@ -113,9 +113,8 @@ To build the master page directly from this HTML file, simply edit the page as y
 <mso:HtmlDesignStatusAndPreview msdt:dt="string">https://wellingtonfreeambulance.sharepoint.com/_catalogs/masterpage/wfa.html, Conversion successful.</mso:HtmlDesignStatusAndPreview>
 </mso:CustomDocumentProperties>
 </xml><![endif]-->
-        <link href="https://cdn.rawgit.com/knockerdesign/wfa_css/master/client/app/wfa.css" type="text/css" rel="stylesheet" />
     </head>
-    <body>
+    <body style="background: url('https://wellingtonfreeambulance.sharepoint.com/_catalogs/masterpage/wfa-intranet/images/wfa-loader.gif' center 33% no-repeat; height: 100%; min-height: 100%;">
         <!--SPM:<SharePoint:ImageLink runat="server"/>-->
         <!--SPM:<SharePoint:SPNoScript runat="server"/>-->
         <!--SPM:<SharePoint:SPClientIDGenerator runat="server" ServerControlID="DeltaPlaceHolderMain;DeltaPlaceHolderPageTitleInTitleArea;DeltaPlaceHolderUtilityContent"/>-->
@@ -205,7 +204,7 @@ To build the master page directly from this HTML file, simply edit the page as y
                 <!--SPM:<wssucw:Welcome runat="server" EnableViewState="false"/>-->
             <!--ME:</SharePoint:SPSecurityTrimmedControl>-->
         </div>
-        <div id="s4-workspace" class="">
+        <div id="s4-workspace" class="" style="display: none;">
             <!-- This div gets a height and width set by sharepoint. Footer also must sit inside this div -->
             <div id="s4-bodyContainer" class="">
                 <div class="container">
