@@ -197,4 +197,8 @@ div.item-capability strong {
   font-family: $base-font !important;
 }
 
+//get ride of Segoe UI font
 
+.nav-header.item[style] {
+  font-family: $base-font !important;
+}

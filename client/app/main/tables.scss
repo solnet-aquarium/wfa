@@ -104,3 +104,12 @@ table[summary="Our People"] {
     }
   }
 }
+
+.news-lists-company-announcements-dispform {
+  .ms-formtable td {
+    width: auto !important; // make the widths auto so the don't break mob view
+    &:first-child {
+      display: none;
+    }
+  }
+}
