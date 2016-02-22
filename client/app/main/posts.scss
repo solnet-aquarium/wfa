@@ -5,3 +5,18 @@
 .ms-blog-postDivider {
   margin-bottom: $margin-lg;
 }
+
+.newslist-item {
+  margin-bottom: $margin-md;
+  .image-area-left {
+    float: none;
+    img {
+      width: 100%;
+      height: auto;
+      @media (min-width: $screen-sm) {
+        width: 50%;
+      }
+    }
+  }
+}
+
