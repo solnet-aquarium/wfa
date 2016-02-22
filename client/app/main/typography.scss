@@ -8,10 +8,17 @@
      font-style: normal;
 }
 
+h1, h2, h3, h4 {
+  white-space: normal !important;
+}
+
 h1, h1.ms-belltown-pageName, h1.page-title {
     font-family: 'lobster', sans-serif;
     color: $brand-primary;
-    font-size: $font-size-h1;
+    font-size: $font-size-h1 * 0.7;
+    @media (min-width: $screen-sm) {
+      font-size: $font-size-h1;
+    }
     margin: 0 0 20px 0;
     vertical-align: text-top;
     a {
@@ -30,7 +37,10 @@ div.item-capability h2 {
 h2, h2 a, h2 a:visited {
     font-family: 'lobster';
     font-weight: $font-weight-h2;
-    font-size: $font-size-h2;
+    font-size: $font-size-h2 * 0.7;
+    @media (min-width: $screen-sm) {
+      font-size: $font-size-h2;
+    }
     overflow: hidden;
     margin: 0 0 5px 0;
     color: $brand-primary;
@@ -60,7 +70,10 @@ h3.mainheading i {
 
 h3 {
   color: $brand-primary;
-  font-size: $font-size-h3;
+  font-size: $font-size-h3 * 0.8;
+  @media (min-width: $screen-sm) {
+    font-size: $font-size-h2;
+  }
   font-family: 'lobster', sans-serif;
   &.mainheading {
     border-bottom: 1px solid $brand-primary;
