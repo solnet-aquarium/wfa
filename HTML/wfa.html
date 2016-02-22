@@ -369,10 +369,10 @@ To build the master page directly from this HTML file, simply edit the page as y
               if($(this).attr("href")) {
                 var myHref = $(this).attr("href");
                 var fileExt = myHref.substr(myHref.lastIndexOf('.')+1)
-                //console.log(myHref + ": " + fileExt);
+                console.log(myHref + ": " + fileExt);
 
                 if(fileExt == "pdf" || fileExt == "doc" || fileExt == "docx") {
-                  //console.log($(this).attr("href"));
+                  console.log($(this).attr("href"));
                   $(this).attr("target","_blank");
                 }
               }
