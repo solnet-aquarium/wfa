@@ -28,7 +28,6 @@ table[summary="Our People"] {
         padding-top: $margin-sm;
         width: 35%;
         min-height: 50px;
-        background-color: $grey-30;
       }
       //name cell
       &:nth-child(3) {
@@ -69,7 +68,6 @@ table[summary="Our People"] {
         padding-top: $margin-sm;
         width: 20%;
         min-height: 50px;
-        background-color: $grey-30;
       }
       //name cell
       &:nth-child(3), &:nth-child(4) {
@@ -113,3 +111,13 @@ table[summary="Our People"] {
     }
   }
 }
+
+// set the image size of the peoples photos
+
+.people-lists-peoplesearch2-allitems .ms-cellstyle img {
+  width: 100px;
+  height: auto;
+  margin-right: 10px;
+}
+
+
