@@ -9090,7 +9090,7 @@ ul.dynamic .ms-core-listMenu-item:hover {
 .sn-footer {
   margin-top: 20px; }
 
-#ctl00_ctl55_site_share_button[style] {
+#ctl00_ctl55_site_share_button[style], #ctl00_ctl57_site_share_button[style] {
   display: none !important; }
 
 #s4-workspace[style] {
@@ -9373,6 +9373,11 @@ table[summary="Our People"] {
       padding: 15px 0;
       display: table-cell; } }
 
+.news-lists-company-announcements-dispform .ms-formtable td {
+  width: auto !important; }
+  .news-lists-company-announcements-dispform .ms-formtable td:first-child {
+    display: none; }
+
 @font-face {
   font-family: 'lobster';
   src: url("../fonts/lobster-hand.eot");
@@ -9509,6 +9514,9 @@ div.item-capability strong {
 
 .ms-blog-postList h2 a {
   font-size: 22px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
+
+.nav-header.item[style] {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important; }
 
 /*# sourceMappingURL=app.css.map */
