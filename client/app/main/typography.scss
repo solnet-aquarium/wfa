@@ -169,6 +169,12 @@ div.item-capability strong {
     display: inline-block;
 }
 
+// sharepoint theme over rides
+ 
+.ms-rteThemeForeColor-5-4 { 
+  color: $brand-primary;
+}
+
 
 // fixes for forcing headings to appear as other types
 
@@ -186,6 +192,9 @@ div.item-capability strong {
   font-family: $base-font !important;
 }
 
-
+.ms-blog-postList h2 a {
+  font-size: $font-size-h4;
+  font-family: $base-font !important;
+}
 
 
