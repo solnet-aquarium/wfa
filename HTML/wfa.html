@@ -46,6 +46,23 @@ To build the master page directly from this HTML file, simply edit the page as y
         <!--SPM:<SharePoint:DelegateControl runat="server" ControlId="AdditionalPageHead" AllowMultipleControls="true"/>-->
         <!--SPM:</SharePoint:AjaxDelta>-->
         <!--SPM:<SharePoint:SPShortcutIcon runat="server" IconUrl="/_layouts/15/images/favicon.ico?rev=41"/>-->
+
+<style type="text/css">
+    /* show loader then WFA styles will hide it with form element */
+    html {
+      height: 100%;
+      min-height: 100%;
+    }
+    body {
+      background: url('../images/wfa-loader.gif') no-repeat;
+      height: 100%;
+      min-height: 100%;
+      width: 100%;
+    }
+
+</style>
+
+
 <![CDATA[
 [if IE 9]
 ]]>        <style type="text/css">//<![CDATA[
@@ -57,19 +74,6 @@ To build the master page directly from this HTML file, simply edit the page as y
 .ms-isBot .ms-core-animation-transparent {
     opacity: 1;
 }
-
-/* show loader then WFA styles will hide it with form element */
-html {
-  height: 100%;
-  min-height: 100%;
-}
-body {
-  background: url('../images/wfa-loader.gif') no-repeat;
-  height: 100%;
-  min-height: 100%;
-  width: 100%;
-}
-
 
  //
 
