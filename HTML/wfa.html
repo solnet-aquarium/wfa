@@ -82,6 +82,7 @@ To build the master page directly from this HTML file, simply edit the page as y
     
         //]]>
         </script>
+
         <!--SPM:<SharePoint:CssRegistration Name="Themable/oslo.css" runat="server" EnableCssTheming="true"/>-->
         <!--PS: Start of READ-ONLY PREVIEW (do not modify) --><!-- <link href="https://wellingtonfreeambulance.sharepoint.com/_layouts/15/1033/styles/Themable/oslo.css" type="text/css" rel="stylesheet"/> --><!--PE: End of READ-ONLY PREVIEW -->
         <!--[if gte mso 9]><xml>
@@ -110,6 +111,39 @@ To build the master page directly from this HTML file, simply edit the page as y
         <!--SPM:<SharePoint:DelegateControl ControlId="GlobalSiteLink3" Scope="Farm" runat="server" Visible="false"/>-->
         <!--SPM:</SharePoint:AjaxDelta>-->
         <!--SPM:<SharePoint:SPSecurityTrimmedControl runat="server" HideFromSearchCrawler="true" EmitDiv="true">-->
+        <script type="text/javascript">
+            
+            // script to turn the url into a class name and add it to the body tag
+            var pathArray = window.location.pathname.split( '/' );
+            var pageClassName = "";
+
+            console.log("pathArray = " + pathArray)
+
+            for (var i=0;i<pathArray.length;i++) {
+              if (pathArray[i].length > 0) {
+                var findReplace = pathArray[i];
+                // check for %20 in the url and replace with a -
+                findReplace = findReplace.replace(/%20/g, "-");
+                pathArray[i] = findReplace;
+                //append the array value to the class name
+                pageClassName= pageClassName + pathArray[i];
+                if (i != pathArray.length-1) {
+                  //if we're not at the end of the url, all a - to break the words
+                  pageClassName= pageClassName + "-";
+                }
+              }
+            }
+            //remove dot extention
+            pageClassName = pageClassName.slice(0, -5);
+            //change to all lower case
+            pageClassName = pageClassName.toLowerCase()
+            // add class name to body tag
+            document.body.className += " " + pageClassName;
+
+            console.log(pageClassName)
+
+
+        </script>
         <div id="TurnOnAccessibility" style="display:none" class="s4-notdlg noindex">
             <a id="linkTurnOnAcc" data-accessibility-nocheck="true" href="#" class="ms-TurnOnAcc" onclick="SetIsAccessibilityFeatureEnabled(true);UpdateAccessibilityUI();document.getElementById('linkTurnOffAcc').focus();return false;">
                 <!--SPM:<SharePoint:EncodedLiteral runat="server" text="&#60;%$Resources:wss,master_turnonaccessibility%&#62;" EncodeMethod="HtmlEncode"/>-->
