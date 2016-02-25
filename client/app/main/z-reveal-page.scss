@@ -1,3 +1,7 @@
 #s4-workspace[style] {
   display: block !important;
 }
+
+body[style] {
+  background: none !important; // hide the background loader image when this CSS file is loaded
+}
