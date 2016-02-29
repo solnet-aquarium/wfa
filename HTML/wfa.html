@@ -404,22 +404,34 @@ To build the master page directly from this HTML file, simply edit the page as y
 
 
             // Check for phone numbers in a Sharepoint table cell
+            // Try every X seconds to allow for components to load in the page
+            var i = setInterval(function(){
+                //Get the tablecells on the page
+                var tableCells = $('.ms-cellstyle');
+                //If we have more the zero table cells selected
+                if (tableCells.length > 0) {
+                    //Kill the set interval
+                    clearInterval(i);
+                    //Iterate through the cells to look for phone numbers
+                    tableCells.each(function(){
+                      //Get the value inside the table cell
+                      var cellValue = $(this).html();
+                      //remove all characters, leaving us with numerals
+                      var pureNum = cellValue.replace(/[^0-9]/g, "");
+                      //console.log(cellValue + " = " + pureNum + " : length = " + pureNum.length);
+                      
+                      //If the number in the cell is 9 or 10 numerals long...
+                      if(pureNum.length === 9 || pureNum.length === 10) {
+                        //build the html to be inserted into the cell, including the phone number
+                        var phLink = "<a href='tel:" + pureNum + "'>" + cellValue + "</a>";
+                        //insert the phone link into the table cell
+                        $(this).html(phLink);
+                      }
+                    });
+                }
+                
+            }, 200);
 
-            $('.ms-cellstyle').each(function(){
-              //Get the value inside the table cell
-              var cellValue = $(this).html();
-              //remove all characters, leaving us with numerals
-              var pureNum = cellValue.replace(/[^0-9]/g, "");
-              //console.log(cellValue + " = " + pureNum + " : length = " + pureNum.length);
-              
-              //If the number in the cell is 9 or 10 numerals long...
-              if(pureNum.length === 9 || pureNum.length === 10) {
-                //build the html to be inserted into the cell, including the phone number
-                var phLink = "<a href='tel:" + pureNum + "'>" + cellValue + "</a>";
-                //insert the phone link into the table cell
-                $(this).html(phLink);
-              }
-            });
         });
     </script>
 
