@@ -121,3 +121,20 @@ form[action="/Pages/Home.aspx"] {
   position: relative;
   z-index: 1000;
 }
+
+
+// hide the wiki panel on small screens
+.ms-wiki-columnSpacing {
+  @media (min-width: 0) and (max-width: $screen-sm-max) {
+    display: none;
+  }
+}
+// hide discussion board on small screens
+.ms-core-defaultFont.ms-comm-forumContainer {
+  @media (min-width: 0) and (max-width: $screen-sm-min) {
+    display: none;
+  }
+}
+
+
+

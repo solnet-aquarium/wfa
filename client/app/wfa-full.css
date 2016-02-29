@@ -9171,6 +9171,14 @@ form[action="/Pages/Home.aspx"] #pageTitle, form[action="/Pages/Home.aspx"] #pag
   position: relative;
   z-index: 1000; }
 
+@media (min-width: 0) and (max-width: 991px) {
+  .ms-wiki-columnSpacing {
+    display: none; } }
+
+@media (min-width: 0) and (max-width: 768px) {
+  .ms-core-defaultFont.ms-comm-forumContainer {
+    display: none; } }
+
 .dfwp-list li:before, .dfwp-list li:after {
   content: "";
   display: table; }
