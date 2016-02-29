@@ -103,6 +103,93 @@ table[summary="Our People"] {
   }
 }
 
+
+
+
+table[summary="Company Announcements"] {
+  width: 100%;
+  tbody tr {
+    &:nth-child(odd) {
+      background-color: $grey-20;
+    }
+  }
+  td {
+    padding: $margin-sm $margin-xs;
+  }
+  @media (max-width: $screen-xs-max) {
+    
+    //hide table head... unusable in this view
+    th {
+      display: none;
+    }
+    td {
+      display: block;
+      //Title cell
+      &:nth-child(2) {
+        padding: $margin-sm;
+        width: 100%;
+        min-height: 50px;
+        font-weight: 700;
+        div {
+          padding: 0;
+        }
+      }
+      //Body cell
+      &:nth-child(5) {
+        padding: $margin-sm;
+        width: 100%;
+      }
+      &:nth-child(1), &:nth-child(3), &:nth-child(4), &:nth-child(6), &:nth-child(7), &:nth-child(8) {
+        display: none;
+      }
+    }
+  }
+
+  @media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+    
+    //hide table head... unusable in this view
+    th {
+      display: none;
+    }
+    td {
+      display: inline-block;
+      //Title cell
+      &:nth-child(2) {
+        padding: $margin-sm;
+        width: 100%;
+        min-height: 50px;
+        font-weight: 700;
+        display: block;
+        div {
+          padding: 0;
+        }
+      }
+      //Modified cell
+      &:nth-child(4){ 
+        padding: $margin-sm;
+        width: 35%;
+      }
+      //Body cell
+      &:nth-child(5) {
+        padding: $margin-sm;
+        width: 65%;
+      }
+      &:nth-child(1), &:nth-child(3), &:nth-child(6), &:nth-child(7), &:nth-child(8) {
+        display: none;
+      }
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
 .news-lists-company-announcements-dispform {
   .ms-formtable td {
     width: auto !important; // make the widths auto so the don't break mob view

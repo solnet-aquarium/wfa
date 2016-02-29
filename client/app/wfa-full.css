@@ -9375,6 +9375,51 @@ table[summary="Our People"] {
       padding: 15px 0;
       display: table-cell; } }
 
+table[summary="Company Announcements"] {
+  width: 100%; }
+  table[summary="Company Announcements"] tbody tr:nth-child(odd) {
+    background-color: #efefef; }
+  table[summary="Company Announcements"] td {
+    padding: 15px 10px; }
+  @media (max-width: 767px) {
+    table[summary="Company Announcements"] th {
+      display: none; }
+    table[summary="Company Announcements"] td {
+      display: block; }
+      table[summary="Company Announcements"] td:nth-child(2) {
+        padding: 15px;
+        width: 100%;
+        min-height: 50px;
+        font-weight: 700; }
+        table[summary="Company Announcements"] td:nth-child(2) div {
+          padding: 0; }
+      table[summary="Company Announcements"] td:nth-child(5) {
+        padding: 15px;
+        width: 100%; }
+      table[summary="Company Announcements"] td:nth-child(1), table[summary="Company Announcements"] td:nth-child(3), table[summary="Company Announcements"] td:nth-child(4), table[summary="Company Announcements"] td:nth-child(6), table[summary="Company Announcements"] td:nth-child(7), table[summary="Company Announcements"] td:nth-child(8) {
+        display: none; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    table[summary="Company Announcements"] th {
+      display: none; }
+    table[summary="Company Announcements"] td {
+      display: inline-block; }
+      table[summary="Company Announcements"] td:nth-child(2) {
+        padding: 15px;
+        width: 100%;
+        min-height: 50px;
+        font-weight: 700;
+        display: block; }
+        table[summary="Company Announcements"] td:nth-child(2) div {
+          padding: 0; }
+      table[summary="Company Announcements"] td:nth-child(4) {
+        padding: 15px;
+        width: 35%; }
+      table[summary="Company Announcements"] td:nth-child(5) {
+        padding: 15px;
+        width: 65%; }
+      table[summary="Company Announcements"] td:nth-child(1), table[summary="Company Announcements"] td:nth-child(3), table[summary="Company Announcements"] td:nth-child(6), table[summary="Company Announcements"] td:nth-child(7), table[summary="Company Announcements"] td:nth-child(8) {
+        display: none; } }
+
 .news-lists-company-announcements-dispform .ms-formtable td {
   width: auto !important; }
   .news-lists-company-announcements-dispform .ms-formtable td:first-child {
