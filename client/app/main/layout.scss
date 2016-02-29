@@ -115,5 +115,9 @@ form[action="/Pages/Home.aspx"] {
   margin-right: 0;
 }
 
+// make the editing menu sit above all other panels
 
-
+.ms-ToolPaneOuter {
+  position: relative;
+  z-index: 1000;
+}

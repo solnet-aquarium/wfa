@@ -9167,6 +9167,10 @@ form[action="/Pages/Home.aspx"] #pageTitle, form[action="/Pages/Home.aspx"] #pag
 .ms-dlgTitleBtns {
   margin-right: 0; }
 
+.ms-ToolPaneOuter {
+  position: relative;
+  z-index: 1000; }
+
 .dfwp-list li:before, .dfwp-list li:after {
   content: "";
   display: table; }
@@ -9536,5 +9540,8 @@ div.item-capability strong {
 
 #s4-workspace[style] {
   display: block !important; }
+
+body[style] {
+  background: none !important; }
 
 /*# sourceMappingURL=app.css.map */
