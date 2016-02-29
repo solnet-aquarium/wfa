@@ -379,11 +379,12 @@ To build the master page directly from this HTML file, simply edit the page as y
     </body>
 
     <!-- scripts to add icons and footer navigation -->
-    <script type="text/javascript" src="solnetintra/Scripts/underscore.js"></script>
-    <script type="text/javascript" src="solnetintra/Scripts/scenario1.js"></script>
-    <script type="text/javascript" src="solnetintra/Scripts/jquery-ui.js"></script>
-    <script type="text/javascript" src="solnetintra/Scripts/knockout-3.2.0.js"></script>
-    <script type="text/javascript" src="solnetintra/Scripts/mavention.globalnavigation.js"></script>
+    <script type="text/javascript" src="wfa-intranet/scripts/jquery.min.js"></script>
+    <script type="text/javascript" src="wfa-intranet/scripts/underscore.js"></script>
+    <script type="text/javascript" src="wfa-intranet/scripts/scenario1.js"></script>
+    <script type="text/javascript" src="wfa-intranet/scripts/jquery-ui.js"></script>
+    <script type="text/javascript" src="wfa-intranet/scripts/knockout-3.2.0.js"></script>
+    <script type="text/javascript" src="wfa-intranet/scripts/mavention.globalnavigation.js"></script>
     <!-- end footer navigation -->
 
     <script type="text/javascript">
@@ -393,10 +394,10 @@ To build the master page directly from this HTML file, simply edit the page as y
               if($(this).attr("href")) {
                 var myHref = $(this).attr("href");
                 var fileExt = myHref.substr(myHref.lastIndexOf('.')+1)
-                console.log(myHref + ": " + fileExt);
+                //console.log(myHref + ": " + fileExt);
 
                 if(fileExt == "pdf" || fileExt == "doc" || fileExt == "docx") {
-                  console.log($(this).attr("href"));
+                  //console.log($(this).attr("href"));
                   $(this).attr("target","_blank").attr("onclick","");
                 }
               }
