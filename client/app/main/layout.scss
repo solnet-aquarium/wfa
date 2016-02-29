@@ -96,9 +96,14 @@ form[action="/Pages/Home.aspx"] {
   }
 }
 
+// over write min-widths and set to blocks
 .ms-pub-contentLayout {
   min-width: 1px;
   display: block;
+}
+
+.ms-blog-MainArea, .ms-blog-postList {
+  min-width: 1px;
 }
 
 //menu appears squashed, setting this div to 100% appears to fix it
@@ -123,7 +128,17 @@ form[action="/Pages/Home.aspx"] {
 }
 
 
-// hide the wiki panel on small screens
+// On main news page, hide right column on small screens
+.news-default, .news-lists-posts-post, .news-lists-categories-category {
+  .ms-blog-LeftColumn {
+    @media (min-width: 0) and (max-width: $screen-sm-min) {
+      display: none;
+    }
+  }
+}
+
+
+// hide the RHS nav panel on small screens
 .ms-wiki-columnSpacing {
   @media (min-width: 0) and (max-width: $screen-sm-max) {
     display: none;
@@ -135,6 +150,7 @@ form[action="/Pages/Home.aspx"] {
     display: none;
   }
 }
+
 
 
 
