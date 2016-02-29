@@ -397,7 +397,7 @@ To build the master page directly from this HTML file, simply edit the page as y
 
                 if(fileExt == "pdf" || fileExt == "doc" || fileExt == "docx") {
                   console.log($(this).attr("href"));
-                  $(this).attr("target","_blank");
+                  $(this).attr("target","_blank","onclick","");
                 }
               }
             });
