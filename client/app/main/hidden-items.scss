@@ -1,6 +1,6 @@
 // Share button in ribbon is being hidden
-#ctl00_ctl55_site_share_button[style], #ctl00_ctl57_site_share_button[style] {
-  
+// if it has an id ending in...
+[id$='site_share_button'][style] {
   display: none !important;
 }
 
