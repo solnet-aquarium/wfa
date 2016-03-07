@@ -70,7 +70,26 @@
       }
     }
   }
-
-
 }
 
+
+// layout fixes for mobile on this page: https://wellingtonfreeambulance.sharepoint.com/News/Lists/Categories/Category.aspx?CategoryId=10
+#sideNavBox {
+  @media (min-width: 0) and (max-width: $screen-sm - 1) {
+    width: 100%;
+    max-width: none;
+    float: none;
+  }
+}
+.ms-blog-listMenu-root {
+  @media (min-width: 0) and (max-width: $screen-sm - 1) {
+    width: 100%;
+  }
+}
+
+.ms-belltown-sideNavDelta > * {
+  @media (min-width: 0) and (max-width: $screen-sm - 1) {
+    margin: 10px 0 0 10px;
+    width: auto;
+  }
+}

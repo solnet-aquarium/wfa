@@ -9284,6 +9284,21 @@ form[action="/Pages/Home.aspx"] #pageTitle, form[action="/Pages/Home.aspx"] #pag
     #titlerow li.static .menu-item-text {
       font-size: 13px; } }
 
+@media (min-width: 0) and (max-width: 767px) {
+  #sideNavBox {
+    width: 100%;
+    max-width: none;
+    float: none; } }
+
+@media (min-width: 0) and (max-width: 767px) {
+  .ms-blog-listMenu-root {
+    width: 100%; } }
+
+@media (min-width: 0) and (max-width: 767px) {
+  .ms-belltown-sideNavDelta > * {
+    margin: 10px 0 0 10px;
+    width: auto; } }
+
 .ms-blog-postInlineDate {
   margin-right: 25px; }
 
