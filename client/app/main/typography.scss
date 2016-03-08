@@ -19,7 +19,6 @@ h1, h1.ms-belltown-pageName, h1.page-title {
     @media (min-width: $screen-sm) {
       font-size: $font-size-h1;
     }
-    margin: 50px 0 20px 0;
     vertical-align: text-top;
     a {
       color: $brand-primary;
@@ -28,6 +27,13 @@ h1, h1.ms-belltown-pageName, h1.page-title {
       }
     }
 }
+h1:not(#pageContentTitle) {
+  margin: 50px 0 20px 0;
+}
+td h1 {
+  margin-top: 0 !important;
+}
+
 
 div.item-capability h2 {
     font-weight: bold;
