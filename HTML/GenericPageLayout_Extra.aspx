@@ -53,6 +53,11 @@
             </div>
             
             
+            
+
+
+
+
             <!-- First Row-->
 			<div class="row">
                 <div class="col-md-12">
@@ -66,97 +71,50 @@
 
                 </div>
             </div>
-            <!-- Second Row-->
+             <!-- Second Row-->
             <div class="row">
-             <div class="col-md-12 col-lg-9 col-lg-offset-1"> 
                 <div class="col-md-8">
-                     
-				    
-				    <div>
-				        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row2Column1" Title="loc:LeftColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
-				    </div>
-				    
+                    <div>
+                        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row2Column1" Title="loc:LeftColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <!-- Gallery sidebar with a block grid. Note: block grid items should be the same size for optimal results -->
-                    
-				    
-				    <div>
-				        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row2Column2" Title="loc:RightColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
-				    </div>
-				    
+                    <div>
+                        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row2Column2" Title="loc:RightColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
+                    </div>
                 </div>
-                
-                </div>
-
-                
             </div>
             <!-- Third Row-->
             
             
-                <div class="row">
-             <div class="col-md-12 col-lg-9 col-lg-offset-1"> 
+            <div class="row">
                 <div class="col-md-6">
-                     
-				    
-				    <div>
-				        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap4Row2Column1" Title="loc:HalfLeftColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
-				    </div>
-				    
+				    <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap4Row2Column1" Title="loc:HalfLeftColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                 </div>
                 <div class="col-md-6">
                     <!-- Gallery sidebar with a block grid. Note: block grid items should be the same size for optimal results -->
-                    
-				    
-				    <div>
-				        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap4Row2Column2" Title="loc:HalfRightColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
-				    </div>
-				    
+				    <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap4Row2Column2" Title="loc:HalfRightColumn" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                 </div>
-                
-                </div>
+            </div>
 
                 
-            </div>
             <!-- Fourth Row-->
 
-            
-            
             <div class="row">
-            
-             <div class="col-md-12 col-lg-9 col-lg-offset-1"> 
                 <div class="col-md-12">
                     <div class="panel">
-                         
-						    
-						    <div>
-						        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column1" Title="Third Column Top" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
-						    </div>
-				    
+						<WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column1" Title="Third Column Top" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                         <div class="row">
                             <div class="col-md-9">
-                                 
-							     
-							     <div>
-							        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column2Sub1" Title="Third Column Left" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
-							    </div>
-							    
+							    <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column2Sub1" Title="Third Column Left" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                             </div>
                             <div class="col-md-3">
-                                 
-							     
-							     <div>
-							        <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column2Sub2" Title="Third Column Right" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
-							    </div>
-							    
+							    <WebPartPages:WebPartZone runat="server" AllowPersonalization="false" ID="bootstrap2Row3Column2Sub2" Title="Third Column Right" FrameType="None" Orientation="Vertical"><ZoneTemplate></ZoneTemplate></WebPartPages:WebPartZone>
                             </div>
                         </div>
                     </div>
                 </div>
-                </div>
             </div>
-
-            
-
 
 </asp:Content>
