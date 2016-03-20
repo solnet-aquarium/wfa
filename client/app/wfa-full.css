@@ -9118,9 +9118,6 @@ ul.dynamic .ms-core-listMenu-item:hover {
       @media (min-width: 768px) {
         #titleAreaRow #siteIcon img {
           width: 100%; } }
-      @media (min-width: 1200px) {
-        #titleAreaRow #siteIcon img {
-          width: 85%; } }
 
 .ms-pub-contentLayout {
   padding-top: 0; }
@@ -9320,9 +9317,6 @@ form[action="/Pages/Home.aspx"] #pageTitle, form[action="/Pages/Home.aspx"] #pag
     .newslist-item .image-area-left img {
       width: 100%;
       height: auto; }
-      @media (min-width: 768px) {
-        .newslist-item .image-area-left img {
-          width: 50%; } }
 
 /* Search input */
 #searchInputBox {
