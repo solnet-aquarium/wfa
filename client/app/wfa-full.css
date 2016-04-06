@@ -9118,6 +9118,9 @@ ul.dynamic .ms-core-listMenu-item:hover {
       @media (min-width: 768px) {
         #titleAreaRow #siteIcon img {
           width: 100%; } }
+      @media (min-width: 1200px) {
+        #titleAreaRow #siteIcon img {
+          width: 85%; } }
 
 .ms-pub-contentLayout {
   padding-top: 0; }
@@ -9357,6 +9360,10 @@ table[summary="Our People"] {
   width: 100%; }
   table[summary="Our People"] tbody tr:nth-child(odd) {
     background-color: #efefef; }
+  table[summary="Our People"] .ms-cellstyle img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px; }
   @media (max-width: 767px) {
     table[summary="Our People"] th {
       display: none; }
@@ -9457,11 +9464,6 @@ table[summary="Company Announcements"] {
   width: auto !important; }
   .news-lists-company-announcements-dispform .ms-formtable td:first-child {
     display: none; }
-
-.people-lists-peoplesearch2-allitems .ms-cellstyle img {
-  width: 100px;
-  height: auto;
-  margin-right: 10px; }
 
 @font-face {
   font-family: 'lobster';

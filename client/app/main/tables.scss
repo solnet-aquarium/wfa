@@ -14,6 +14,12 @@ table[summary="Our People"] {
       background-color: $grey-20;
     }
   }
+  // set the image size of the peoples photos
+  .ms-cellstyle img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+  }
   @media (max-width: $screen-xs-max) {
     
     //hide table head... unusable in this view
@@ -199,12 +205,5 @@ table[summary="Company Announcements"] {
   }
 }
 
-// set the image size of the peoples photos
-
-.people-lists-peoplesearch2-allitems .ms-cellstyle img {
-  width: 100px;
-  height: auto;
-  margin-right: 10px;
-}
 
 
